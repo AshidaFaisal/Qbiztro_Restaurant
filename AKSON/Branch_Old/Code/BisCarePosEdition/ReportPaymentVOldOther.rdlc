@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition">
+  <DataSources>
+    <DataSource Name="dbBizcarePosDataSetPrintPaymentVOldOther">
+      <ConnectionProperties>
+        <DataProvider>System.Data.DataSet</DataProvider>
+        <ConnectString>/* Local Connection */</ConnectString>
+      </ConnectionProperties>
+      <rd:DataSourceID>80b53767-1bea-44dd-aaf0-387be8a3d1c3</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="DataSet1">
+      <Fields>
+        <Field Name="supplier_id">
+          <DataField>supplier_id</DataField>
+          <rd:TypeName>System.Int64</rd:TypeName>
+        </Field>
+        <Field Name="pid">
+          <DataField>pid</DataField>
+          <rd:TypeName>System.Int64</rd:TypeName>
+        </Field>
+        <Field Name="voucher_date">
+          <DataField>voucher_date</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="voucher_no">
+          <DataField>voucher_no</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="DealerName">
+          <DataField>DealerName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="amount">
+          <DataField>amount</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="description">
+          <DataField>description</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="paymode">
+          <DataField>paymode</DataField>
+          <rd:TypeName>System.Byte</rd:TypeName>
+        </Field>
+        <Field Name="tin_no">
+          <DataField>tin_no</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="address">
+          <DataField>address</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="AmountWords">
+          <DataField>AmountWords</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>dbBizcarePosDataSetPrintPaymentVOldOther</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <rd:DataSetInfo>
+        <rd:DataSetName>dbBizcarePosDataSetPrintPaymentVOldOther</rd:DataSetName>
+        <rd:SchemaPath>E:\RemyaProject\Restaurant 18-12-2013\BisCarePosEdition\BisCarePosEdition\dbBizcarePosDataSetPrintPaymentVOldOther.xsd</rd:SchemaPath>
+        <rd:TableName>Sp_PrintPaymentVoucherMasterOldPay</rd:TableName>
+        <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
+        <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
+        <rd:TableAdapterName>Sp_PrintPaymentVoucherMasterOldPayTableAdapter</rd:TableAdapterName>
+      </rd:DataSetInfo>
+    </DataSet>
+  </DataSets>
+  <Body>
+    <ReportItems>
+      <Textbox Name="Textbox19">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Payment Voucher</Value>
+                <Style>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Center</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox19</rd:DefaultName>
+        <Top>0.25in</Top>
+        <Left>0.17187in</Left>
+        <Height>0.24306in</Height>
+        <Width>6.41667in</Width>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Line Name="Line1">
+        <Top>0.56907in</Top>
+        <Left>0.17187in</Left>
+        <Height>0in</Height>
+        <Width>6.41667in</Width>
+        <ZIndex>1</ZIndex>
+        <Style>
+          <Border>
+            <Style>Solid</Style>
+          </Border>
+        </Style>
+      </Line>
+      <Textbox Name="Textbox9">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Voucher No</Value>
+                <Style>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox9</rd:DefaultName>
+        <Top>0.73455in</Top>
+        <Left>0.17187in</Left>
+        <Height>0.25in</Height>
+        <Width>1.34376in</Width>
+        <ZIndex>2</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox8">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Voucher Date</Value>
+                <Style>
+                  <FontStyle>Normal</FontStyle>
+                  <FontWeight>Bold</FontWeight>
+                  <TextDecoration>None</TextDecoration>
+                  <Color>#000000</Color>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox8</rd:DefaultName>
+        <Top>0.99497in</Top>
+        <Left>0.16145in</Left>
+        <Height>0.25in</Height>
+        <Width>1in</Width>
+        <ZIndex>3</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox11">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Dealer Name</Value>
+                <Style>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox11</rd:DefaultName>
+        <Top>1.52622in</Top>
+        <Left>0.16145in</Left>
+        <Height>0.25in</Height>
+        <Width>1.11458in</Width>
+        <ZIndex>4</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox21">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Description</Value>
+                <Style>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox21</rd:DefaultName>
+        <Top>2.01337in</Top>
+        <Left>0.16145in</Left>
+        <Height>0.25in</Height>
+        <Width>1in</Width>
+        <ZIndex>5</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox35">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Total</Value>
+                <Style>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox35</rd:DefaultName>
+        <Top>2.54114in</Top>
+        <Left>0.16145in</Left>
+        <Height>0.25in</Height>
+        <Width>0.53125in</Width>
+        <ZIndex>6</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox15">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Amount in Words :</Value>
+                <Style>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox5</rd:DefaultName>
+        <Top>2.92309in</Top>
+        <Left>0.16145in</Left>
+        <Height>0.25in</Height>
+        <Width>1.34376in</Width>
+        <ZIndex>7</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="voucher_no">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!voucher_no.Value, "DataSet1")</Value>
+                <Style />
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>voucher_no</rd:DefaultName>
+        <Top>0.73455in</Top>
+        <Left>1.51563in</Left>
+        <Height>0.25in</Height>
+        <Width>1in</Width>
+        <ZIndex>8</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="voucher_date">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!voucher_date.Value, "DataSet1")</Value>
+                <Style />
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>voucher_date</rd:DefaultName>
+        <Top>0.99497in</Top>
+        <Left>1.51563in</Left>
+        <Height>0.25in</Height>
+        <Width>1in</Width>
+        <ZIndex>9</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="DealerName">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!DealerName.Value, "DataSet1")</Value>
+                <Style />
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>DealerName</rd:DefaultName>
+        <Top>1.52622in</Top>
+        <Left>1.51563in</Left>
+        <Height>0.25in</Height>
+        <Width>3.45833in</Width>
+        <ZIndex>10</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="description">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!description.Value, "DataSet1")</Value>
+                <Style />
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>description</rd:DefaultName>
+        <Top>2.01337in</Top>
+        <Left>1.51563in</Left>
+        <Height>0.42708in</Height>
+        <Width>5.07291in</Width>
+        <ZIndex>11</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="amount">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=Sum(Fields!amount.Value, "DataSet1")</Value>
+                <Style />
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Right</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>amount</rd:DefaultName>
+        <Top>2.54114in</Top>
+        <Left>1.51563in</Left>
+        <Height>0.25in</Height>
+        <Width>1in</Width>
+        <ZIndex>12</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="AmountWords">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!AmountWords.Value, "DataSet1")</Value>
+                <Style />
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>AmountWords</rd:DefaultName>
+        <Top>2.92309in</Top>
+        <Left>1.50521in</Left>
+        <Height>0.6875in</Height>
+        <Width>5.08333in</Width>
+        <ZIndex>13</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+    </ReportItems>
+    <Height>3.9375in</Height>
+    <Style />
+  </Body>
+  <Width>6.78125in</Width>
+  <Page>
+    <LeftMargin>1in</LeftMargin>
+    <RightMargin>1in</RightMargin>
+    <TopMargin>1in</TopMargin>
+    <BottomMargin>1in</BottomMargin>
+    <Style />
+  </Page>
+  <rd:ReportID>f0998ca8-a2bb-41e7-aa07-3606ecbc51f1</rd:ReportID>
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+</Report>

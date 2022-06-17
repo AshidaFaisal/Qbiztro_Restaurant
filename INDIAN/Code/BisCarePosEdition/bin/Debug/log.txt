@@ -1,0 +1,581 @@
+19-Oct-18 10:43:29 AM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.SetDefaultWaiter() in D:\Ashida\RESTAURENT\MUSRIZ\10-Oct-2018\Code\BisCarePosEdition\Billing.cs:line 4844
+   at BisCarePosEdition.Billing.cbox_table_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\MUSRIZ\10-Oct-2018\Code\BisCarePosEdition\Billing.cs:line 455
+05-Nov-18 12:38:17 PM - Item
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Item.Cmb_itemname_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\MUSRIZ\05-Nov-2018\Code\BisCarePosEdition\Item.cs:line 756
+05-Nov-18 12:38:17 PM - Item
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Item.Cmb_itemname_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\MUSRIZ\05-Nov-2018\Code\BisCarePosEdition\Item.cs:line 756
+05-Nov-18 12:38:58 PM - Item
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Item.Cmb_itemname_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\MUSRIZ\05-Nov-2018\Code\BisCarePosEdition\Item.cs:line 756
+05-Nov-18 12:38:58 PM - Item
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Item.Cmb_itemname_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\MUSRIZ\05-Nov-2018\Code\BisCarePosEdition\Item.cs:line 756
+05-Nov-18 12:52:46 PM - Item
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Item.Cmb_itemname_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\MUSRIZ\05-Nov-2018\Code\BisCarePosEdition\Item.cs:line 756
+05-Nov-18 12:52:46 PM - Item
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Item.Cmb_itemname_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\MUSRIZ\05-Nov-2018\Code\BisCarePosEdition\Item.cs:line 756
+05-Nov-18 12:55:10 PM - Item
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Item.Cmb_itemname_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\MUSRIZ\05-Nov-2018\Code\BisCarePosEdition\Item.cs:line 756
+05-Nov-18 12:55:10 PM - Item
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Item.Cmb_itemname_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\MUSRIZ\05-Nov-2018\Code\BisCarePosEdition\Item.cs:line 756
+05-Nov-18 1:11:23 PM - Item
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Item.Cmb_itemname_SelectedIndexChanged(Object sender, EventArgs e)
+05-Nov-18 1:11:23 PM - Item
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Item.Cmb_itemname_SelectedIndexChanged(Object sender, EventArgs e)
+05-Nov-18 1:11:47 PM - Item
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Item.Cmb_itemname_SelectedIndexChanged(Object sender, EventArgs e)
+05-Nov-18 1:11:48 PM - Item
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Item.Cmb_itemname_SelectedIndexChanged(Object sender, EventArgs e)
+05-Nov-18 1:18:37 PM - Item
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Item.Cmb_itemname_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\MUSRIZ\05-Nov-2018\Code\BisCarePosEdition\Item.cs:line 757
+05-Nov-18 1:18:38 PM - Item
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Item.Cmb_itemname_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\MUSRIZ\05-Nov-2018\Code\BisCarePosEdition\Item.cs:line 757
+05-Nov-18 1:26:36 PM - Item
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Item.Cmb_itemname_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\MUSRIZ\05-Nov-2018\Code\BisCarePosEdition\Item.cs:line 757
+05-Nov-18 1:26:36 PM - Item
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Item.Cmb_itemname_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\MUSRIZ\05-Nov-2018\Code\BisCarePosEdition\Item.cs:line 757
+05-Nov-18 2:10:47 PM - Item
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Item.Cmb_itemname_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\MUSRIZ\05-Nov-2018\Code\BisCarePosEdition\Item.cs:line 757
+05-Nov-18 2:10:47 PM - Item
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Item.Cmb_itemname_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\MUSRIZ\05-Nov-2018\Code\BisCarePosEdition\Item.cs:line 757
+05-Nov-18 4:34:03 PM - Billing
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Billing.txt_packing_TextChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\MUSRIZ\05-Nov-2018\Code\BisCarePosEdition\Billing.cs:line 4594
+05-Nov-18 4:37:47 PM - Billing
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Billing.txt_packing_TextChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\MUSRIZ\05-Nov-2018\Code\BisCarePosEdition\Billing.cs:line 4594
+05-Nov-18 4:59:32 PM - Billing
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Billing.txt_packing_TextChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\MUSRIZ\05-Nov-2018\Code\BisCarePosEdition\Billing.cs:line 4595
+05-Nov-18 5:11:10 PM - Billing
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Billing.txt_packing_TextChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\MUSRIZ\05-Nov-2018\Code\BisCarePosEdition\Billing.cs:line 4614
+05-Nov-18 5:11:21 PM - Billing
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Billing.txt_packing_TextChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\MUSRIZ\05-Nov-2018\Code\BisCarePosEdition\Billing.cs:line 4614
+05-Nov-18 5:12:59 PM - Billing
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Billing.txt_packing_TextChanged(Object sender, EventArgs e)
+05-Nov-18 5:13:05 PM - Billing
+System.Data.SqlClient.SqlException (0x80131904): Error converting data type nvarchar to numeric.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at BisCarePosEdition.Codebehind.InsertInvoiceMaster(String inNo, DateTime date, String custname, String custmob, String custemail, Int32 status, String total, Int32 compliment, String discount, String paidamnt, String custst, String custid, String userid, String packingcharge, Int32 billtype, DateTime storedate, Int32 paymode, String cashamt, String cardamt, String billingmode, String tax)
+   at BisCarePosEdition.Billing.btn_printBill_Click(Object sender, EventArgs e)
+ClientConnectionId:92894334-4f3b-4f90-b791-3ec89ff18426
+Error Number:8114,State:5,Class:16
+18-Mar-19 2:48:42 PM - Item
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '1' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Item.Item_Load(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\MUSRIZ\21-Jan-2019(Copy of Code 8-Nov)\Code\BisCarePosEdition\Item.cs:line 223
+9/20/2019 11:22:11 AM - Item
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Item.Cmb_itemname_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\MUSRIZ\21-Jan-2019(Copy of Code 8-Nov)\Code\BisCarePosEdition\Item.cs:line 757
+9/20/2019 11:22:11 AM - Item
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Item.Cmb_itemname_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\MUSRIZ\21-Jan-2019(Copy of Code 8-Nov)\Code\BisCarePosEdition\Item.cs:line 757
+12/11/2019 2:26:07 PM - Connection in Version Updation
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "ROYALMUZIRIS" requested by the login. The login failed.
+Login failed for user 'loyal\user'.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at BisCarePosEdition.Theme.Opencon() in D:\Ashida\RESTAURENT\MUSRIZ\18-March-2019\Code\BisCarePosEdition\Theme.cs:line 21
+ClientConnectionId:946bad0a-34e0-499b-ac1f-5946ce66e601
+Error Number:4060,State:1,Class:11
+17-Nov-20 10:00:23 AM - Billing
+System.Data.SqlClient.SqlException (0x80131904): Procedure spGetInvoiceNo has no parameters and arguments were supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at BisCarePosEdition.Codebehind.GetInvoiceNo() in D:\Ashida\RESTAURENT\MUSRIZ\18-March-2019\Code\BisCarePosEdition\Codebehind.cs:line 1456
+   at BisCarePosEdition.Billing.Billing_Load(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\MUSRIZ\18-March-2019\Code\BisCarePosEdition\Billing.cs:line 227
+ClientConnectionId:5be9b7e2-495a-4d2d-9c5d-3a63a13f659b
+Error Number:8146,State:2,Class:16
+17-Nov-20 10:00:24 AM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.counterBill_CheckedChangedFun() in D:\Ashida\RESTAURENT\MUSRIZ\18-March-2019\Code\BisCarePosEdition\Billing.cs:line 3207
+17-Nov-20 10:00:43 AM - Billing
+System.Data.SqlClient.SqlException (0x80131904): Procedure spGetInvoiceNo has no parameters and arguments were supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at BisCarePosEdition.Codebehind.GetInvoiceNo() in D:\Ashida\RESTAURENT\MUSRIZ\18-March-2019\Code\BisCarePosEdition\Codebehind.cs:line 1456
+   at BisCarePosEdition.Billing.Billing_Load(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\MUSRIZ\18-March-2019\Code\BisCarePosEdition\Billing.cs:line 227
+ClientConnectionId:489b1299-f1e9-4106-ae82-ae25adb9ca9b
+Error Number:8146,State:2,Class:16
+17-Nov-20 10:00:43 AM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.counterBill_CheckedChangedFun() in D:\Ashida\RESTAURENT\MUSRIZ\18-March-2019\Code\BisCarePosEdition\Billing.cs:line 3207
+17-Nov-20 10:03:30 AM - Billing
+System.Data.SqlClient.SqlException (0x80131904): Procedure spGetInvoiceNo has no parameters and arguments were supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at BisCarePosEdition.Codebehind.GetInvoiceNo() in D:\Ashida\RESTAURENT\MUSRIZ\18-March-2019\Code\BisCarePosEdition\Codebehind.cs:line 1456
+   at BisCarePosEdition.Billing.Billing_Load(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\MUSRIZ\18-March-2019\Code\BisCarePosEdition\Billing.cs:line 227
+ClientConnectionId:9670d58c-9d25-4b84-a2fa-dc1b36cd3824
+Error Number:8146,State:2,Class:16
+17-Nov-20 10:03:30 AM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.counterBill_CheckedChangedFun() in D:\Ashida\RESTAURENT\MUSRIZ\18-March-2019\Code\BisCarePosEdition\Billing.cs:line 3207
+06-Dec-20 3:54:39 PM - Item
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Item.Cmb_itemname_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\MUSRIZ\18-March-2019\Code\BisCarePosEdition\Item.cs:line 757
+06-Dec-20 3:54:40 PM - Item
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Item.Cmb_itemname_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\MUSRIZ\18-March-2019\Code\BisCarePosEdition\Item.cs:line 757
+06-Dec-20 4:03:22 PM - Billing
+System.Data.SqlClient.SqlException (0x80131904): Procedure spGetInvoiceNo has no parameters and arguments were supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at BisCarePosEdition.Codebehind.GetInvoiceNo() in D:\Ashida\RESTAURENT\MUSRIZ\18-March-2019\Code\BisCarePosEdition\Codebehind.cs:line 1456
+   at BisCarePosEdition.Billing.Billing_Load(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\MUSRIZ\18-March-2019\Code\BisCarePosEdition\Billing.cs:line 227
+ClientConnectionId:da344668-79e5-43b0-9d12-3d4c6b04143d
+Error Number:8146,State:2,Class:16
+06-Dec-20 4:03:23 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.counterBill_CheckedChangedFun() in D:\Ashida\RESTAURENT\MUSRIZ\18-March-2019\Code\BisCarePosEdition\Billing.cs:line 3207
+06-Dec-20 4:20:58 PM - Item
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Item.Cmb_itemname_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\MUSRIZ\18-March-2019\Code\BisCarePosEdition\Item.cs:line 757
+06-Dec-20 4:20:58 PM - Item
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Item.Cmb_itemname_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\MUSRIZ\18-March-2019\Code\BisCarePosEdition\Item.cs:line 757
+06-Dec-20 4:23:35 PM - Item
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Item.Cmb_itemname_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\MUSRIZ\18-March-2019\Code\BisCarePosEdition\Item.cs:line 757
+06-Dec-20 4:23:35 PM - Item
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Item.Cmb_itemname_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\MUSRIZ\18-March-2019\Code\BisCarePosEdition\Item.cs:line 757
+12-Dec-20 3:44:20 PM - PendingOT_S
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridView.get_Item(Int32 columnIndex, Int32 rowIndex)
+   at BisCarePosEdition.PendingOT_S.dgv_PendingKOTTakeAway_CellClick(Object sender, DataGridViewCellEventArgs e) in D:\Ashida\RESTAURENT\INDIAN RESTAURANT\Code\BisCarePosEdition\PendingOT'S.cs:line 668
+12-Dec-20 3:51:08 PM - PendingOT_S
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   at BisCarePosEdition.PendingOT_S.dgv_PendingKOTTakeAway_CellClick(Object sender, DataGridViewCellEventArgs e) in D:\Ashida\RESTAURENT\INDIAN RESTAURANT\Code\BisCarePosEdition\PendingOT'S.cs:line 669
+12-Dec-20 4:03:47 PM - Billing
+System.ArgumentException: Column 'CustomerName' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at BisCarePosEdition.Billing.cbox_table_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\INDIAN RESTAURANT\Code\BisCarePosEdition\Billing.cs:line 418
+12-Dec-20 4:26:10 PM - Billing
+System.ArgumentException: Column 'CustomerName' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at BisCarePosEdition.Billing.cbox_table_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\INDIAN RESTAURANT\Code\BisCarePosEdition\Billing.cs:line 418
+12-Dec-20 4:26:16 PM - Billing
+System.ArgumentException: Column 'CustomerName' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at BisCarePosEdition.Billing.cbox_table_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\INDIAN RESTAURANT\Code\BisCarePosEdition\Billing.cs:line 418
+14-Dec-20 10:27:52 AM - Employee
+System.Data.SqlClient.SqlException (0x80131904): Error converting data type nvarchar to bigint.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at BisCarePosEdition.Codebehind.GetempDetails(String Id) in D:\Ashida\RESTAURENT\INDIAN RESTAURANT\Code\BisCarePosEdition\Codebehind.cs:line 2796
+   at BisCarePosEdition.Employee.cmb_emp_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\INDIAN RESTAURANT\Code\BisCarePosEdition\Employee.cs:line 1135
+ClientConnectionId:86bc6831-0e6f-4b17-a012-f7f25529912b
+Error Number:8114,State:5,Class:16
+2020-12-19 2:24:22 PM - Connection in Version Updation
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "JABIR" requested by the login. The login failed.
+Login failed for user 'loyal\user'.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at BisCarePosEdition.Theme.Opencon() in D:\Ashida\RESTAURENT\INDIAN RESTAURANT (without tax)\14-Dec-2020\Code\BisCarePosEdition\Theme.cs:line 21
+ClientConnectionId:ed741e6c-9f02-408b-b192-9e4b29a17ee8
+Error Number:4060,State:1,Class:11
+2020-12-19 2:34:23 PM - Connection in Version Updation
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "JABIR" requested by the login. The login failed.
+Login failed for user 'loyal\user'.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at BisCarePosEdition.Theme.Opencon() in D:\Ashida\RESTAURENT\INDIAN RESTAURANT (without tax)\14-Dec-2020\Code\BisCarePosEdition\Theme.cs:line 21
+ClientConnectionId:b6e02a36-e64c-4894-a1f8-63b1f527a21f
+Error Number:4060,State:1,Class:11
+2020-12-19 2:40:02 PM - Login
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.DateTime.Parse(String s)
+   at BisCarePosEdition.Login.btn_Login_Click(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\INDIAN RESTAURANT (without tax)\14-Dec-2020\Code\BisCarePosEdition\Login.cs:line 51
+2020-12-19 2:40:14 PM - Login
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.DateTime.Parse(String s)
+   at BisCarePosEdition.Login.btn_Login_Click(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\INDIAN RESTAURANT (without tax)\14-Dec-2020\Code\BisCarePosEdition\Login.cs:line 51
+2020-12-19 2:40:15 PM - Login
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.DateTime.Parse(String s)
+   at BisCarePosEdition.Login.btn_Login_Click(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\INDIAN RESTAURANT (without tax)\14-Dec-2020\Code\BisCarePosEdition\Login.cs:line 51
+2020-12-19 2:40:15 PM - Login
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.DateTime.Parse(String s)
+   at BisCarePosEdition.Login.btn_Login_Click(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\INDIAN RESTAURANT (without tax)\14-Dec-2020\Code\BisCarePosEdition\Login.cs:line 51
+2020-12-19 2:40:16 PM - Login
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.DateTime.Parse(String s)
+   at BisCarePosEdition.Login.btn_Login_Click(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\INDIAN RESTAURANT (without tax)\14-Dec-2020\Code\BisCarePosEdition\Login.cs:line 51
+2020-12-19 2:40:17 PM - Login
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.DateTime.Parse(String s)
+   at BisCarePosEdition.Login.btn_Login_Click(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\INDIAN RESTAURANT (without tax)\14-Dec-2020\Code\BisCarePosEdition\Login.cs:line 51
+2020-12-19 2:40:25 PM - Login
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.DateTime.Parse(String s)
+   at BisCarePosEdition.Login.btn_Login_Click(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\INDIAN RESTAURANT (without tax)\14-Dec-2020\Code\BisCarePosEdition\Login.cs:line 51
+2020-12-19 2:40:28 PM - Login
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.DateTime.Parse(String s)
+   at BisCarePosEdition.Login.btn_Login_Click(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\INDIAN RESTAURANT (without tax)\14-Dec-2020\Code\BisCarePosEdition\Login.cs:line 51
+2020-12-19 2:40:29 PM - Login
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.DateTime.Parse(String s)
+   at BisCarePosEdition.Login.btn_Login_Click(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\INDIAN RESTAURANT (without tax)\14-Dec-2020\Code\BisCarePosEdition\Login.cs:line 51
+2020-12-19 3:00:33 PM - Login
+System.Data.SqlClient.SqlException (0x80131904): Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at BisCarePosEdition.Codebehind.login(String username, String password, DateTime logintime, Int32 status, Int32 counterid, Int32 user_id, Int32 chkstatus) in D:\Ashida\RESTAURENT\INDIAN RESTAURANT (without tax)\14-Dec-2020\Code\BisCarePosEdition\Codebehind.cs:line 2129
+   at BisCarePosEdition.Login.LoginCheck() in D:\Ashida\RESTAURENT\INDIAN RESTAURANT (without tax)\14-Dec-2020\Code\BisCarePosEdition\Login.cs:line 96
+   at BisCarePosEdition.Login.btn_Login_Click(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\INDIAN RESTAURANT (without tax)\14-Dec-2020\Code\BisCarePosEdition\Login.cs:line 71
+ClientConnectionId:66397740-6873-41eb-974e-377c2a48643e
+Error Number:-2,State:0,Class:11
+19-Dec-20 3:06:30 PM - Login
+System.Data.SqlClient.SqlException (0x80131904): Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at BisCarePosEdition.Codebehind.login(String username, String password, DateTime logintime, Int32 status, Int32 counterid, Int32 user_id, Int32 chkstatus) in D:\Ashida\RESTAURENT\INDIAN RESTAURANT (without tax)\14-Dec-2020\Code\BisCarePosEdition\Codebehind.cs:line 2129
+   at BisCarePosEdition.Login.LoginCheck() in D:\Ashida\RESTAURENT\INDIAN RESTAURANT (without tax)\14-Dec-2020\Code\BisCarePosEdition\Login.cs:line 96
+   at BisCarePosEdition.Login.btn_Login_Click(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\INDIAN RESTAURANT (without tax)\14-Dec-2020\Code\BisCarePosEdition\Login.cs:line 71
+ClientConnectionId:2fc5de6a-01b1-4b03-afca-9a65a4e36fde
+Error Number:-2,State:0,Class:11
+19-Dec-20 3:12:52 PM - Login
+System.Data.SqlClient.SqlException (0x80131904): Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at BisCarePosEdition.Codebehind.login(String username, String password, DateTime logintime, Int32 status, Int32 counterid, Int32 user_id, Int32 chkstatus) in D:\Ashida\RESTAURENT\INDIAN RESTAURANT (without tax)\14-Dec-2020\Code\BisCarePosEdition\Codebehind.cs:line 2129
+   at BisCarePosEdition.Login.LoginCheck() in D:\Ashida\RESTAURENT\INDIAN RESTAURANT (without tax)\14-Dec-2020\Code\BisCarePosEdition\Login.cs:line 111
+   at BisCarePosEdition.Login.Login55() in D:\Ashida\RESTAURENT\INDIAN RESTAURANT (without tax)\14-Dec-2020\Code\BisCarePosEdition\Login.cs:line 86
+ClientConnectionId:f6a9aa24-cfe6-4f23-9022-ce19cb6d3a11
+Error Number:-2,State:0,Class:11
+15-Jan-21 12:24:17 PM - Billing
+System.IndexOutOfRangeException: ChangeSellpricestatus
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at BisCarePosEdition.Billing.cbox_ItemName_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\INDIAN RESTAURANT (without tax)\14-Dec-2020\Code\BisCarePosEdition\Billing.cs:line 913
+15-Jan-21 12:25:12 PM - Billing
+System.IndexOutOfRangeException: ChangeSellpricestatus
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at BisCarePosEdition.Billing.cbox_ItemName_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\INDIAN RESTAURANT (without tax)\14-Dec-2020\Code\BisCarePosEdition\Billing.cs:line 913
+15-Jan-21 12:28:14 PM - Billing
+System.IndexOutOfRangeException: ChangeSellpricestatus
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at BisCarePosEdition.Billing.cbox_ItemName_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\INDIAN RESTAURANT (without tax)\14-Dec-2020\Code\BisCarePosEdition\Billing.cs:line 913
+15-Jan-21 12:28:27 PM - Billing
+System.ArgumentException: Column 'CustomerName' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at BisCarePosEdition.Billing.cbox_table_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\INDIAN RESTAURANT (without tax)\14-Dec-2020\Code\BisCarePosEdition\Billing.cs:line 418
+15-Jan-21 12:28:30 PM - Billing
+System.IndexOutOfRangeException: ChangeSellpricestatus
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at BisCarePosEdition.Billing.cbox_ItemName_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\INDIAN RESTAURANT (without tax)\14-Dec-2020\Code\BisCarePosEdition\Billing.cs:line 913
+15-Jan-21 12:28:45 PM - Billing
+System.IndexOutOfRangeException: ChangeSellpricestatus
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at BisCarePosEdition.Billing.cbox_ItemName_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\INDIAN RESTAURANT (without tax)\14-Dec-2020\Code\BisCarePosEdition\Billing.cs:line 913
+15-Jan-21 12:29:01 PM - Billing
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   at BisCarePosEdition.Billing.cbox_table_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\INDIAN RESTAURANT (without tax)\14-Dec-2020\Code\BisCarePosEdition\Billing.cs:line 409
+15-Jan-21 12:29:04 PM - Billing
+System.ArgumentException: Column 'CustomerName' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at BisCarePosEdition.Billing.cbox_table_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\INDIAN RESTAURANT (without tax)\14-Dec-2020\Code\BisCarePosEdition\Billing.cs:line 418
+23-Mar-21 9:55:43 PM - Billing
+System.IndexOutOfRangeException: ChangeSellpricestatus
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at BisCarePosEdition.Billing.cbox_ItemName_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\INDIAN RESTAURANT (without tax)\14-Dec-2020\Code\BisCarePosEdition\Billing.cs:line 913
+20-Feb-22 11:41:01 AM - Connection in Version Updation
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "JABIR" requested by the login. The login failed.
+Login failed for user 'ashida-PC\ashida'.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at BisCarePosEdition.Theme.Opencon() in d:\LOYAL IT SOLUTION\RESTAURENT\INDIAN\Code\BisCarePosEdition\Theme.cs:line 21
+ClientConnectionId:44d85d8e-e311-42cc-b3ac-fdf0f2dc6777
+Error Number:4060,State:1,Class:11
+20-Feb-22 12:04:25 PM - Item
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Item.Cmb_itemname_SelectedIndexChanged(Object sender, EventArgs e) in d:\LOYAL IT SOLUTION\RESTAURENT\INDIAN\Code\BisCarePosEdition\Item.cs:line 757
+20-Feb-22 12:04:25 PM - Item
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Item.Cmb_itemname_SelectedIndexChanged(Object sender, EventArgs e) in d:\LOYAL IT SOLUTION\RESTAURENT\INDIAN\Code\BisCarePosEdition\Item.cs:line 757

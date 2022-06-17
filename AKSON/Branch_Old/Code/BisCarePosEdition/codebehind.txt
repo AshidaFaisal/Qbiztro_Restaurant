@@ -1,0 +1,52 @@
+ public string InsertIncomeExpenseType(string Type, string Name, string Description)
+        {
+            Opencon();
+            cmd = new SqlCommand("spInsertIncomeExpenseType", con);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@Type", Type);
+            cmd.Parameters.AddWithValue("@Name", Name);
+            cmd.Parameters.AddWithValue("@Description", Description);
+            return cmd.ExecuteScalar().ToString();
+        }
+ public string DeleteIncomeExpense(string type)
+        {
+            Opencon();
+            cmd = new SqlCommand("DelIncomeExpenseType", con);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@type", type);
+            return cmd.ExecuteScalar().ToString();
+        }
+
+ public DataTable SelectIncomeExpenseType(string Type)
+        {
+            Opencon();
+            cmd = new SqlCommand("spSelectIncomeExpenseType", con);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@Type", Type);
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+            return dt;
+        }
+ public string UpdateIncomeExpenseType(string Id, string Type, string Name, string Description)
+        {
+            Opencon();
+            cmd = new SqlCommand("spUpdateIncomeExpenseType", con);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@Id", Id);
+            cmd.Parameters.AddWithValue("@Type", Type);
+            cmd.Parameters.AddWithValue("@Name", Name);
+            cmd.Parameters.AddWithValue("@Description", Description);
+            return cmd.ExecuteScalar().ToString();
+        }
+ public DataTable GetIncomeExpenseTypeDetails(string Id)
+        {
+            Opencon();
+            cmd = new SqlCommand("spGetIncomeExpenseTypeDetails", con);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@Id", Id);
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+            return dt;
+        }

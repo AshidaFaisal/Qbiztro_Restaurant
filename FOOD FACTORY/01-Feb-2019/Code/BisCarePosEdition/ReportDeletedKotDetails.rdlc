@@ -1,0 +1,1089 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition">
+  <DataSources>
+    <DataSource Name="dbBizcarePosDataSetReportDeleatedKotDetails">
+      <ConnectionProperties>
+        <DataProvider>System.Data.DataSet</DataProvider>
+        <ConnectString>/* Local Connection */</ConnectString>
+      </ConnectionProperties>
+      <rd:DataSourceID>62781933-34a0-4fb8-b8b7-1492e6ade258</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="DataSet1">
+      <Fields>
+        <Field Name="DeletedkotId">
+          <DataField>DeletedkotId</DataField>
+          <rd:TypeName>System.Int64</rd:TypeName>
+        </Field>
+        <Field Name="ItemId">
+          <DataField>ItemId</DataField>
+          <rd:TypeName>System.Int64</rd:TypeName>
+        </Field>
+        <Field Name="ItemCode">
+          <DataField>ItemCode</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ItemName">
+          <DataField>ItemName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Quantity">
+          <DataField>Quantity</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="Rate">
+          <DataField>Rate</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="Amount">
+          <DataField>Amount</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="CustomerName">
+          <DataField>CustomerName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Status1">
+          <DataField>Status1</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="DeletedInvoiceDate">
+          <DataField>DeletedInvoiceDate</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="K0TNo">
+          <DataField>K0TNo</DataField>
+          <rd:TypeName>System.Int64</rd:TypeName>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>dbBizcarePosDataSetReportDeleatedKotDetails</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <rd:DataSetInfo>
+        <rd:DataSetName>dbBizcarePosDataSetReportDeleteKotDetailsnew</rd:DataSetName>
+        <rd:SchemaPath>E:\RemyaProjects\BisCarePosEdition\BisCarePosEdition\BisCarePosEdition\dbBizcarePosDataSetReportDeleteKotDetailsnew.xsd</rd:SchemaPath>
+        <rd:TableName>spReportDeletedKotDetail</rd:TableName>
+        <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
+        <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
+        <rd:TableAdapterName>spReportDeletedKotDetailTableAdapter</rd:TableAdapterName>
+      </rd:DataSetInfo>
+    </DataSet>
+    <DataSet Name="DataSet2">
+      <Fields>
+        <Field Name="StartDate">
+          <DataField>StartDate</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="EndDate">
+          <DataField>EndDate</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CurrentDate">
+          <DataField>CurrentDate</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>dbBizcarePosDataSetReportDeleatedKotDetails</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <rd:DataSetInfo>
+        <rd:DataSetName>dbBizcarePosDataSet1</rd:DataSetName>
+        <rd:SchemaPath>E:\RemyaProjects\BisCarePosEdition\BisCarePosEdition\BisCarePosEdition\dbBizcarePosDataSet1.xsd</rd:SchemaPath>
+        <rd:TableName>spReportDates</rd:TableName>
+        <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
+        <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
+        <rd:TableAdapterName>spReportDatesTableAdapter</rd:TableAdapterName>
+      </rd:DataSetInfo>
+    </DataSet>
+  </DataSets>
+  <Body>
+    <ReportItems>
+      <Tablix Name="Tablix4">
+        <TablixBody>
+          <TablixColumns>
+            <TablixColumn>
+              <Width>0.71342in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>0.98425in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>0.83842in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>1.19258in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>0.98425in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>0.98425in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>1.35925in</Width>
+            </TablixColumn>
+          </TablixColumns>
+          <TablixRows>
+            <TablixRow>
+              <Height>0.23622in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox29">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>K0TNo</Value>
+                              <Style>
+                                <FontFamily>Times New Roman</FontFamily>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox29</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>Teal</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox36">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Bill Type</Value>
+                              <Style>
+                                <FontFamily>Times New Roman</FontFamily>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox36</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>Teal</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox23">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Item Code</Value>
+                              <Style>
+                                <FontFamily>Times New Roman</FontFamily>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox23</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>Teal</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox25">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Item Name</Value>
+                              <Style>
+                                <FontFamily>Times New Roman</FontFamily>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox25</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>Teal</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox27">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Quantity</Value>
+                              <Style>
+                                <FontFamily>Times New Roman</FontFamily>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox27</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>Teal</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox31">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Amount</Value>
+                              <Style>
+                                <FontFamily>Times New Roman</FontFamily>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Right</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox31</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>Teal</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox38">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Deleted KOT Date</Value>
+                              <Style>
+                                <FontFamily>Times New Roman</FontFamily>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox38</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>Teal</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+            <TablixRow>
+              <Height>0.23622in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="K0TNo">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!K0TNo.Value</Value>
+                              <Style>
+                                <FontFamily>Times New Roman</FontFamily>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Left</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>K0TNo</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Status1">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!Status1.Value</Value>
+                              <Style>
+                                <FontFamily>Times New Roman</FontFamily>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Left</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Status1</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="ItemCode">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!ItemCode.Value</Value>
+                              <Style>
+                                <FontFamily>Times New Roman</FontFamily>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Left</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>ItemCode</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="ItemName">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!ItemName.Value</Value>
+                              <Style>
+                                <FontFamily>Times New Roman</FontFamily>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Left</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>ItemName</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Quantity">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!Quantity.Value</Value>
+                              <Style>
+                                <FontFamily>Times New Roman</FontFamily>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Quantity</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Amount">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!Amount.Value</Value>
+                              <Style>
+                                <FontFamily>Times New Roman</FontFamily>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Right</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Amount</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="DeletedInvoiceDate">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!DeletedInvoiceDate.Value</Value>
+                              <Style>
+                                <FontFamily>Times New Roman</FontFamily>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>DeletedInvoiceDate</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+          </TablixRows>
+        </TablixBody>
+        <TablixColumnHierarchy>
+          <TablixMembers>
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+          </TablixMembers>
+        </TablixColumnHierarchy>
+        <TablixRowHierarchy>
+          <TablixMembers>
+            <TablixMember>
+              <KeepWithGroup>After</KeepWithGroup>
+            </TablixMember>
+            <TablixMember>
+              <Group Name="Details" />
+            </TablixMember>
+          </TablixMembers>
+        </TablixRowHierarchy>
+        <DataSetName>DataSet1</DataSetName>
+        <Top>3.0607cm</Top>
+        <Left>0.58843cm</Left>
+        <Height>1.2cm</Height>
+        <Width>17.92331cm</Width>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Tablix>
+      <Textbox Name="Textbox34">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Deleted KOT Details</Value>
+                <Style>
+                  <FontFamily>Times New Roman</FontFamily>
+                  <FontSize>14pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                  <Color>White</Color>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Center</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox33</rd:DefaultName>
+        <Top>0.74097cm</Top>
+        <Left>0.58841cm</Left>
+        <Height>0.78521cm</Height>
+        <Width>17.92333cm</Width>
+        <ZIndex>1</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <BackgroundColor>Teal</BackgroundColor>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox16">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Total Quantity</Value>
+                <Style>
+                  <FontFamily>Times New Roman</FontFamily>
+                  <FontSize>12pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                  <Color>White</Color>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Center</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox16</rd:DefaultName>
+        <Top>5.17673cm</Top>
+        <Left>11.24141cm</Left>
+        <Height>0.89987cm</Height>
+        <Width>3.58122cm</Width>
+        <ZIndex>2</ZIndex>
+        <Style>
+          <Border>
+            <Style>Solid</Style>
+          </Border>
+          <BackgroundColor>Teal</BackgroundColor>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox17">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>    Total Amount</Value>
+                <Style>
+                  <FontFamily>Times New Roman</FontFamily>
+                  <FontSize>12pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                  <Color>White</Color>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Center</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox16</rd:DefaultName>
+        <Top>6.25299cm</Top>
+        <Left>11.24141cm</Left>
+        <Height>0.89986cm</Height>
+        <Width>3.58122cm</Width>
+        <ZIndex>3</ZIndex>
+        <Style>
+          <Border>
+            <Style>Solid</Style>
+          </Border>
+          <BackgroundColor>Teal</BackgroundColor>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Quantity1">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=Sum(Fields!Quantity.Value, "DataSet1")</Value>
+                <Style>
+                  <FontFamily>Times New Roman</FontFamily>
+                  <FontSize>12pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                  <Color>White</Color>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Right</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Quantity1</rd:DefaultName>
+        <Top>5.17674cm</Top>
+        <Left>14.82263cm</Left>
+        <Height>0.89986cm</Height>
+        <Width>3.58122cm</Width>
+        <ZIndex>4</ZIndex>
+        <Style>
+          <Border>
+            <Style>Solid</Style>
+          </Border>
+          <BackgroundColor>Teal</BackgroundColor>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Amount1">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=Sum(Fields!Amount.Value, "DataSet1")</Value>
+                <Style>
+                  <FontFamily>Times New Roman</FontFamily>
+                  <FontSize>12pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                  <Color>White</Color>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Right</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Amount1</rd:DefaultName>
+        <Top>6.25299cm</Top>
+        <Left>14.82263cm</Left>
+        <Height>0.89986cm</Height>
+        <Width>3.58122cm</Width>
+        <ZIndex>5</ZIndex>
+        <Style>
+          <Border>
+            <Style>Solid</Style>
+          </Border>
+          <BackgroundColor>Teal</BackgroundColor>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox6">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>      Start Date</Value>
+                <Style>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox6</rd:DefaultName>
+        <Top>1.98392cm</Top>
+        <Left>0.58843cm</Left>
+        <Height>0.6cm</Height>
+        <Width>2.5cm</Width>
+        <ZIndex>6</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox8">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>       End Date</Value>
+                <Style>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox6</rd:DefaultName>
+        <Top>1.98392cm</Top>
+        <Left>13.51174cm</Left>
+        <Height>0.6cm</Height>
+        <Width>2.5cm</Width>
+        <ZIndex>7</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="StartDate">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!StartDate.Value, "DataSet2")</Value>
+                <Style />
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Left</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>StartDate</rd:DefaultName>
+        <Top>1.98392cm</Top>
+        <Left>3.08843cm</Left>
+        <Height>0.6cm</Height>
+        <Width>2.5cm</Width>
+        <ZIndex>8</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="EndDate">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!EndDate.Value, "DataSet2")</Value>
+                <Style />
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Left</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>EndDate</rd:DefaultName>
+        <Top>1.98392cm</Top>
+        <Left>16.01174cm</Left>
+        <Height>0.6cm</Height>
+        <Width>2.5cm</Width>
+        <ZIndex>9</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Line Name="Line1">
+        <Left>0.58841cm</Left>
+        <Height>0cm</Height>
+        <Width>17.92333cm</Width>
+        <ZIndex>10</ZIndex>
+        <Style>
+          <Border>
+            <Style>Solid</Style>
+          </Border>
+        </Style>
+      </Line>
+    </ReportItems>
+    <Height>3.60417in</Height>
+    <Style />
+  </Body>
+  <Width>7.76143in</Width>
+  <Page>
+    <PageHeader>
+      <Height>1.44674cm</Height>
+      <PrintOnFirstPage>true</PrintOnFirstPage>
+      <PrintOnLastPage>true</PrintOnLastPage>
+      <ReportItems>
+        <Textbox Name="PageNumber">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>=Globals!PageNumber</Value>
+                  <Style />
+                </TextRun>
+              </TextRuns>
+              <Style />
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>PageNumber</rd:DefaultName>
+          <Top>0.30903cm</Top>
+          <Left>16.01174cm</Left>
+          <Height>0.6cm</Height>
+          <Width>2.5cm</Width>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="Textbox10">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>  Current Date</Value>
+                  <Style>
+                    <FontWeight>Bold</FontWeight>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style />
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Textbox6</rd:DefaultName>
+          <Top>0.30903cm</Top>
+          <Left>0.58843cm</Left>
+          <Height>0.6cm</Height>
+          <Width>2.5cm</Width>
+          <ZIndex>1</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="CurrentDate">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>=First(Fields!CurrentDate.Value, "DataSet2")</Value>
+                  <Style />
+                </TextRun>
+              </TextRuns>
+              <Style>
+                <TextAlign>Left</TextAlign>
+              </Style>
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>CurrentDate</rd:DefaultName>
+          <Top>0.30903cm</Top>
+          <Left>3.08843cm</Left>
+          <Height>0.6cm</Height>
+          <Width>2.5cm</Width>
+          <ZIndex>2</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+      </ReportItems>
+      <Style>
+        <Border>
+          <Style>None</Style>
+        </Border>
+      </Style>
+    </PageHeader>
+    <PageHeight>29.7cm</PageHeight>
+    <PageWidth>21cm</PageWidth>
+    <LeftMargin>2cm</LeftMargin>
+    <RightMargin>2cm</RightMargin>
+    <TopMargin>2cm</TopMargin>
+    <BottomMargin>2cm</BottomMargin>
+    <ColumnSpacing>0.13cm</ColumnSpacing>
+    <Style />
+  </Page>
+  <rd:ReportID>576f20a6-fd6e-4a7f-9ada-8d229a1d259f</rd:ReportID>
+  <rd:ReportUnitType>Cm</rd:ReportUnitType>
+</Report>

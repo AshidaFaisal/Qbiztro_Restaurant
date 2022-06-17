@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition">
+  <DataSources>
+    <DataSource Name="dbBizcarePosDataSetReportDeletedInvoiceDetails">
+      <ConnectionProperties>
+        <DataProvider>System.Data.DataSet</DataProvider>
+        <ConnectString>/* Local Connection */</ConnectString>
+      </ConnectionProperties>
+      <rd:DataSourceID>ac391a94-777c-4e53-adc0-2fec00864b1b</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="DataSet1">
+      <Fields>
+        <Field Name="ItemId">
+          <DataField>ItemId</DataField>
+          <rd:TypeName>System.Int64</rd:TypeName>
+        </Field>
+        <Field Name="ItemCode">
+          <DataField>ItemCode</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ItemName">
+          <DataField>ItemName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Quntity">
+          <DataField>Quntity</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="Rate">
+          <DataField>Rate</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="Amount">
+          <DataField>Amount</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="kotId">
+          <DataField>kotId</DataField>
+          <rd:TypeName>System.Int64</rd:TypeName>
+        </Field>
+        <Field Name="TableId">
+          <DataField>TableId</DataField>
+          <rd:TypeName>System.Int64</rd:TypeName>
+        </Field>
+        <Field Name="WaiterId">
+          <DataField>WaiterId</DataField>
+          <rd:TypeName>System.Int64</rd:TypeName>
+        </Field>
+        <Field Name="Token">
+          <DataField>Token</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="DeletedInvoiceId">
+          <DataField>DeletedInvoiceId</DataField>
+          <rd:TypeName>System.Int64</rd:TypeName>
+        </Field>
+        <Field Name="Id">
+          <DataField>Id</DataField>
+          <rd:TypeName>System.Int64</rd:TypeName>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>dbBizcarePosDataSetReportDeletedInvoiceDetails</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <rd:DataSetInfo>
+        <rd:DataSetName>dbBizcarePosDataSetReportDeletedInvoiceDetailsnew</rd:DataSetName>
+        <rd:SchemaPath>E:\RemyaProjects\19-9-13 Biscare Restuarant Final\Biscare Restaurant\BisCarePosEdition\BisCarePosEdition\dbBizcarePosDataSetReportDeletedInvoiceDetailsnew.xsd</rd:SchemaPath>
+        <rd:TableName>spReportDeletedInvoiceDetails</rd:TableName>
+        <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
+        <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
+        <rd:TableAdapterName>spReportDeletedInvoiceDetailsTableAdapter</rd:TableAdapterName>
+      </rd:DataSetInfo>
+    </DataSet>
+  </DataSets>
+  <Body>
+    <ReportItems>
+      <Tablix Name="Tablix3">
+        <TablixBody>
+          <TablixColumns>
+            <TablixColumn>
+              <Width>1.44259in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>2.31225in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>0.98425in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>1.078in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>1.19259in</Width>
+            </TablixColumn>
+          </TablixColumns>
+          <TablixRows>
+            <TablixRow>
+              <Height>0.23622in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox16">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Item Code</Value>
+                              <Style>
+                                <FontFamily>Times New Roman</FontFamily>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox16</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>Teal</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox18">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Item Name</Value>
+                              <Style>
+                                <FontFamily>Times New Roman</FontFamily>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox18</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>Teal</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox20">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Quantity</Value>
+                              <Style>
+                                <FontFamily>Times New Roman</FontFamily>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox20</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>Teal</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox24">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Price</Value>
+                              <Style>
+                                <FontFamily>Times New Roman</FontFamily>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Right</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox24</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>Teal</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox22">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Amount</Value>
+                              <Style>
+                                <FontFamily>Times New Roman</FontFamily>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Right</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox22</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>Teal</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+            <TablixRow>
+              <Height>0.23622in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="ItemCode">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!ItemCode.Value</Value>
+                              <Style>
+                                <FontFamily>Times New Roman</FontFamily>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>ItemCode</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="ItemName">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!ItemName.Value</Value>
+                              <Style>
+                                <FontFamily>Times New Roman</FontFamily>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Left</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>ItemName</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Quntity">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!Quntity.Value</Value>
+                              <Style>
+                                <FontFamily>Times New Roman</FontFamily>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Quntity</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Rate">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!Rate.Value</Value>
+                              <Style>
+                                <FontFamily>Times New Roman</FontFamily>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Right</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Rate</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Amount">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!Amount.Value</Value>
+                              <Style>
+                                <FontFamily>Times New Roman</FontFamily>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Right</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Amount</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+          </TablixRows>
+        </TablixBody>
+        <TablixColumnHierarchy>
+          <TablixMembers>
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+          </TablixMembers>
+        </TablixColumnHierarchy>
+        <TablixRowHierarchy>
+          <TablixMembers>
+            <TablixMember>
+              <KeepWithGroup>After</KeepWithGroup>
+            </TablixMember>
+            <TablixMember>
+              <Group Name="Details" />
+            </TablixMember>
+          </TablixMembers>
+        </TablixRowHierarchy>
+        <DataSetName>DataSet1</DataSetName>
+        <Top>0.04354cm</Top>
+        <Left>2.59292cm</Left>
+        <Height>1.2cm</Height>
+        <Width>17.80459cm</Width>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Tablix>
+    </ReportItems>
+    <Height>0.48958in</Height>
+    <Style />
+  </Body>
+  <ReportParameters>
+    <ReportParameter Name="Id">
+      <DataType>Integer</DataType>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+  </ReportParameters>
+  <Width>8.03051in</Width>
+  <Page>
+    <PageHeight>29.7cm</PageHeight>
+    <PageWidth>21cm</PageWidth>
+    <LeftMargin>0cm</LeftMargin>
+    <RightMargin>0cm</RightMargin>
+    <TopMargin>0cm</TopMargin>
+    <BottomMargin>0cm</BottomMargin>
+    <ColumnSpacing>0.13cm</ColumnSpacing>
+    <Style />
+  </Page>
+  <rd:ReportID>60d38599-26c7-4fb6-84fa-4077a3c82898</rd:ReportID>
+  <rd:ReportUnitType>Cm</rd:ReportUnitType>
+</Report>

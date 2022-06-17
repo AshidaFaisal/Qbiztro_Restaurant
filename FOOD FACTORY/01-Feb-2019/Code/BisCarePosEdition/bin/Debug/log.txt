@@ -1,0 +1,1991 @@
+13/04/2017 9:38:41 AM - Billing
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridView.get_Item(Int32 columnIndex, Int32 rowIndex)
+   at BisCarePosEdition.Billing.ProcessCmdKey(Message& msg, Keys keyData) in D:\Neeshma\SASS Restuarant\04-04-2017\Code\BisCarePosEdition\Billing.cs:line 150
+13/04/2017 9:51:33 AM - Item
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Item.Cmb_itemname_SelectedIndexChanged(Object sender, EventArgs e) in D:\Neeshma\SASS Restuarant\04-04-2017\Code\BisCarePosEdition\Item.cs:line 756
+13/04/2017 9:51:33 AM - Item
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Item.Cmb_itemname_SelectedIndexChanged(Object sender, EventArgs e) in D:\Neeshma\SASS Restuarant\04-04-2017\Code\BisCarePosEdition\Item.cs:line 756
+13/04/2017 10:31:21 AM - Billing
+System.ArgumentException: Column ' kotId' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at BisCarePosEdition.Billing.cbox_table_SelectedIndexChanged(Object sender, EventArgs e) in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 387
+13/04/2017 10:31:31 AM - Billing
+System.ArgumentException: Column ' kotId' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at BisCarePosEdition.Billing.cbox_table_SelectedIndexChanged(Object sender, EventArgs e) in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 387
+13/04/2017 10:31:31 AM - Billing
+System.ArgumentException: Column ' kotId' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at BisCarePosEdition.Billing.cbox_table_SelectedIndexChanged(Object sender, EventArgs e) in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 387
+13/04/2017 10:31:40 AM - Billing
+System.ArgumentException: Column ' kotId' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at BisCarePosEdition.Billing.cbox_table_SelectedIndexChanged(Object sender, EventArgs e) in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 387
+13/04/2017 5:17:11 PM - Billing
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridView.get_Item(Int32 columnIndex, Int32 rowIndex)
+   at BisCarePosEdition.Billing.ProcessCmdKey(Message& msg, Keys keyData) in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 150
+15/04/2017 10:03:00 AM - Billing
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'spDeleteKotDetaile' expects parameter '@tableid', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at BisCarePosEdition.Codebehind.DeleteKotDetaile(String id) in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Codebehind.cs:line 1600
+   at BisCarePosEdition.Billing.dgv_KotDetails_CellClick(Object sender, DataGridViewCellEventArgs e) in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 4038
+ClientConnectionId:b4e25a6e-1263-4278-b522-bd560dbd6543
+15/04/2017 10:03:05 AM - Billing
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'spDeleteKotDetaile' expects parameter '@tableid', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at BisCarePosEdition.Codebehind.DeleteKotDetaile(String id) in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Codebehind.cs:line 1600
+   at BisCarePosEdition.Billing.dgv_KotDetails_CellClick(Object sender, DataGridViewCellEventArgs e) in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 4038
+ClientConnectionId:b4e25a6e-1263-4278-b522-bd560dbd6543
+15/04/2017 10:03:20 AM - Billing
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'spDeleteKotDetaile' expects parameter '@tableid', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at BisCarePosEdition.Codebehind.DeleteKotDetaile(String id) in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Codebehind.cs:line 1600
+   at BisCarePosEdition.Billing.dgv_KotDetails_CellClick(Object sender, DataGridViewCellEventArgs e) in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 4038
+ClientConnectionId:b4e25a6e-1263-4278-b522-bd560dbd6543
+15/04/2017 12:27:59 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:27:59 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:00 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:00 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:00 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:01 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:01 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:01 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:02 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:02 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:03 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:04 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:04 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:05 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:05 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:06 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:07 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:07 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:08 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:09 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:09 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:10 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:11 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:12 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:13 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:14 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:15 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:16 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:16 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:17 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:18 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:19 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:20 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:20 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:21 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:22 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:23 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:23 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:24 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:25 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:26 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:27 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:29 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:44 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:44 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:44 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:44 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:45 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:45 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:45 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:46 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:46 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:47 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:47 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:47 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:48 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:48 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:48 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:49 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:49 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:50 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:50 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:28:51 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2578
+15/04/2017 12:29:58 PM - Billing
+System.InvalidOperationException: Cannot set the SelectedValue in a ListControl with an empty ValueMember.
+   at System.Windows.Forms.ListControl.set_SelectedValue(Object value)
+   at BisCarePosEdition.Billing.ItemDetailClear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 584
+   at BisCarePosEdition.Billing.cbox_table_SelectedIndexChanged(Object sender, EventArgs e) in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 362
+15/04/2017 12:29:58 PM - Billing
+System.InvalidOperationException: Cannot set the SelectedValue in a ListControl with an empty ValueMember.
+   at System.Windows.Forms.ListControl.set_SelectedValue(Object value)
+   at BisCarePosEdition.Billing.ItemDetailClear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 584
+   at BisCarePosEdition.Billing.cbox_table_SelectedIndexChanged(Object sender, EventArgs e) in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 362
+15/04/2017 12:29:58 PM - Billing
+System.InvalidOperationException: Cannot set the SelectedValue in a ListControl with an empty ValueMember.
+   at System.Windows.Forms.ListControl.set_SelectedValue(Object value)
+   at BisCarePosEdition.Billing.ItemDetailClear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 584
+   at BisCarePosEdition.Billing.cbox_table_SelectedIndexChanged(Object sender, EventArgs e) in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 362
+15/04/2017 12:29:58 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:29:58 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:29:58 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:29:59 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:29:59 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:30:00 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:30:00 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:30:01 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:30:01 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:30:01 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:30:01 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:30:02 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:30:02 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:30:03 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:30:03 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:30:04 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:30:05 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:30:05 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:30:06 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:30:07 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:30:07 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:30:08 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:30:08 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:30:09 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:30:09 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:30:10 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:30:10 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:30:11 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:30:12 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:30:13 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:30:13 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:30:14 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:30:15 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:30:16 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:30:17 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:30:18 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:30:19 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:30:20 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:30:20 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:31:46 PM - Billing
+System.InvalidOperationException: Cannot set the SelectedValue in a ListControl with an empty ValueMember.
+   at System.Windows.Forms.ListControl.set_SelectedValue(Object value)
+   at BisCarePosEdition.Billing.ItemDetailClear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 584
+   at BisCarePosEdition.Billing.cbox_table_SelectedIndexChanged(Object sender, EventArgs e) in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 362
+15/04/2017 12:31:46 PM - Billing
+System.InvalidOperationException: Cannot set the SelectedValue in a ListControl with an empty ValueMember.
+   at System.Windows.Forms.ListControl.set_SelectedValue(Object value)
+   at BisCarePosEdition.Billing.ItemDetailClear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 584
+   at BisCarePosEdition.Billing.cbox_table_SelectedIndexChanged(Object sender, EventArgs e) in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 362
+15/04/2017 12:31:46 PM - Billing
+System.InvalidOperationException: Cannot set the SelectedValue in a ListControl with an empty ValueMember.
+   at System.Windows.Forms.ListControl.set_SelectedValue(Object value)
+   at BisCarePosEdition.Billing.ItemDetailClear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 584
+   at BisCarePosEdition.Billing.cbox_table_SelectedIndexChanged(Object sender, EventArgs e) in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 362
+15/04/2017 12:31:47 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:31:47 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:31:47 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:31:48 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:31:48 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:31:48 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:31:48 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:31:49 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:31:49 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:31:50 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:31:50 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:31:51 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:31:51 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:31:51 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:31:51 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:31:52 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:31:52 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:31:53 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:31:53 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:31:54 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:31:54 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:31:55 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:31:55 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:31:56 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:31:56 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:31:57 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:31:58 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:31:59 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2574
+15/04/2017 12:35:35 PM - Billing
+System.InvalidOperationException: Cannot set the SelectedValue in a ListControl with an empty ValueMember.
+   at System.Windows.Forms.ListControl.set_SelectedValue(Object value)
+   at BisCarePosEdition.Billing.ItemDetailClear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 584
+   at BisCarePosEdition.Billing.cbox_table_SelectedIndexChanged(Object sender, EventArgs e) in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 362
+15/04/2017 12:35:35 PM - Billing
+System.InvalidOperationException: Cannot set the SelectedValue in a ListControl with an empty ValueMember.
+   at System.Windows.Forms.ListControl.set_SelectedValue(Object value)
+   at BisCarePosEdition.Billing.ItemDetailClear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 584
+   at BisCarePosEdition.Billing.cbox_table_SelectedIndexChanged(Object sender, EventArgs e) in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 362
+15/04/2017 12:35:36 PM - Billing
+System.InvalidOperationException: Cannot set the SelectedValue in a ListControl with an empty ValueMember.
+   at System.Windows.Forms.ListControl.set_SelectedValue(Object value)
+   at BisCarePosEdition.Billing.ItemDetailClear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 584
+   at BisCarePosEdition.Billing.cbox_table_SelectedIndexChanged(Object sender, EventArgs e) in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 362
+15/04/2017 12:35:36 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2573
+15/04/2017 12:35:36 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2573
+15/04/2017 12:35:36 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2573
+15/04/2017 12:35:37 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2573
+15/04/2017 12:35:37 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2573
+15/04/2017 12:35:37 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2573
+15/04/2017 12:35:37 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2573
+15/04/2017 12:35:38 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2573
+15/04/2017 12:35:38 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2573
+15/04/2017 12:35:39 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2573
+15/04/2017 12:35:39 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2573
+15/04/2017 12:35:40 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2573
+15/04/2017 12:35:40 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2573
+15/04/2017 12:35:41 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2573
+15/04/2017 12:35:41 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2573
+15/04/2017 12:35:42 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2573
+15/04/2017 12:35:42 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2573
+15/04/2017 12:35:43 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2573
+15/04/2017 12:35:43 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2573
+15/04/2017 12:35:44 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2573
+15/04/2017 12:35:44 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2573
+15/04/2017 12:35:45 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2573
+15/04/2017 12:35:46 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2573
+15/04/2017 12:35:47 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2573
+15/04/2017 12:35:47 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2573
+15/04/2017 12:35:48 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2573
+15/04/2017 12:35:48 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2573
+15/04/2017 12:35:49 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2573
+15/04/2017 12:35:50 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2573
+15/04/2017 12:35:51 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2573
+15/04/2017 12:35:51 PM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.clear() in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 2573
+15/04/2017 1:02:00 PM - Billing
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridView.get_Item(Int32 columnIndex, Int32 rowIndex)
+   at BisCarePosEdition.Billing.ProcessCmdKey(Message& msg, Keys keyData) in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 150
+15/04/2017 1:02:04 PM - Billing
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridView.get_Item(Int32 columnIndex, Int32 rowIndex)
+   at BisCarePosEdition.Billing.ProcessCmdKey(Message& msg, Keys keyData) in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 150
+15/04/2017 1:04:25 PM - Billing
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridView.get_Item(Int32 columnIndex, Int32 rowIndex)
+   at BisCarePosEdition.Billing.ProcessCmdKey(Message& msg, Keys keyData) in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 150
+15/04/2017 1:04:26 PM - Billing
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridView.get_Item(Int32 columnIndex, Int32 rowIndex)
+   at BisCarePosEdition.Billing.ProcessCmdKey(Message& msg, Keys keyData) in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 150
+15/04/2017 1:06:56 PM - Billing
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridView.get_Item(Int32 columnIndex, Int32 rowIndex)
+   at BisCarePosEdition.Billing.btn_kot_Click(Object sender, EventArgs e) in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 964
+15/04/2017 1:06:56 PM - Billing
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridView.get_Item(Int32 columnIndex, Int32 rowIndex)
+   at BisCarePosEdition.Billing.ProcessCmdKey(Message& msg, Keys keyData) in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 150
+15/04/2017 1:10:09 PM - Billing
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridView.get_Item(Int32 columnIndex, Int32 rowIndex)
+   at BisCarePosEdition.Billing.ProcessCmdKey(Message& msg, Keys keyData) in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 150
+15/04/2017 1:10:27 PM - Billing
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridView.get_Item(Int32 columnIndex, Int32 rowIndex)
+   at BisCarePosEdition.Billing.ProcessCmdKey(Message& msg, Keys keyData) in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 150
+15/04/2017 1:11:30 PM - Billing
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridView.get_Item(Int32 columnIndex, Int32 rowIndex)
+   at BisCarePosEdition.Billing.ProcessCmdKey(Message& msg, Keys keyData) in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 150
+15/04/2017 1:13:00 PM - Billing
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridView.get_Item(Int32 columnIndex, Int32 rowIndex)
+   at BisCarePosEdition.Billing.ProcessCmdKey(Message& msg, Keys keyData) in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 150
+15/04/2017 1:13:01 PM - Billing
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridView.get_Item(Int32 columnIndex, Int32 rowIndex)
+   at BisCarePosEdition.Billing.ProcessCmdKey(Message& msg, Keys keyData) in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 150
+15/04/2017 1:13:01 PM - Billing
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridView.get_Item(Int32 columnIndex, Int32 rowIndex)
+   at BisCarePosEdition.Billing.ProcessCmdKey(Message& msg, Keys keyData) in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 150
+15/04/2017 1:13:01 PM - Billing
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridView.get_Item(Int32 columnIndex, Int32 rowIndex)
+   at BisCarePosEdition.Billing.ProcessCmdKey(Message& msg, Keys keyData) in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 150
+15/04/2017 1:13:01 PM - Billing
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridView.get_Item(Int32 columnIndex, Int32 rowIndex)
+   at BisCarePosEdition.Billing.ProcessCmdKey(Message& msg, Keys keyData) in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 150
+15/04/2017 1:13:01 PM - Billing
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridView.get_Item(Int32 columnIndex, Int32 rowIndex)
+   at BisCarePosEdition.Billing.ProcessCmdKey(Message& msg, Keys keyData) in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 150
+15/04/2017 1:13:01 PM - Billing
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridView.get_Item(Int32 columnIndex, Int32 rowIndex)
+   at BisCarePosEdition.Billing.ProcessCmdKey(Message& msg, Keys keyData) in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 150
+15/04/2017 1:13:01 PM - Billing
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridView.get_Item(Int32 columnIndex, Int32 rowIndex)
+   at BisCarePosEdition.Billing.ProcessCmdKey(Message& msg, Keys keyData) in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 150
+15/04/2017 1:31:11 PM - Billing
+System.InvalidOperationException: Invalid attempt to call Read when reader is closed.
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at BisCarePosEdition.Billing.cbox_ItemName_SelectedIndexChanged(Object sender, EventArgs e) in D:\Neeshma\SASS Restuarant\11-04-2017\Code\BisCarePosEdition\Billing.cs:line 770
+17/04/2017 3:10:04 PM - Billing
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Billing.btn_kot_Click(Object sender, EventArgs e)
+17/04/2017 3:10:04 PM - Billing
+System.Data.SqlClient.SqlException (0x80131904): Error converting data type nvarchar to int.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at BisCarePosEdition.Codebehind.InsertKotMaster(String custname, String custmob, String custemail, String totalamount, String billingst, String table, String waiter, String custstat, String token, DateTime date1, String department, String TokenStatus, String pk, String reference)
+   at BisCarePosEdition.Billing.ProcessCmdKey(Message& msg, Keys keyData)
+ClientConnectionId:a156118b-9e7e-4589-a6d7-4b6b7dbf2fdd
+17/04/2017 3:14:20 PM - Billing
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Billing.btn_kot_Click(Object sender, EventArgs e)
+17/04/2017 3:18:48 PM - Billing
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Billing.btn_kot_Click(Object sender, EventArgs e)
+17/04/2017 3:20:38 PM - Billing
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at BisCarePosEdition.Billing.btn_kot_Click(Object sender, EventArgs e)
+17/04/2017 3:25:23 PM - Billing
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Billing.btn_kot_Click(Object sender, EventArgs e) in D:\Neeshma\SASS Restuarant\15-04-2017\Code\BisCarePosEdition\Billing.cs:line 881
+17/04/2017 3:25:26 PM - Billing
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Billing.btn_kot_Click(Object sender, EventArgs e) in D:\Neeshma\SASS Restuarant\15-04-2017\Code\BisCarePosEdition\Billing.cs:line 881
+17/04/2017 3:25:28 PM - Billing
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Billing.btn_kot_Click(Object sender, EventArgs e) in D:\Neeshma\SASS Restuarant\15-04-2017\Code\BisCarePosEdition\Billing.cs:line 881
+17/04/2017 3:29:55 PM - Billing
+System.Data.SqlClient.SqlException (0x80131904): Error converting data type nvarchar to numeric.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at BisCarePosEdition.Codebehind.InsertKotMaster(String custname, String custmob, String custemail, String totalamount, String billingst, String table, String waiter, String custstat, String token, DateTime date1, String department, String TokenStatus, String pk, String reference)
+   at BisCarePosEdition.Billing.btn_kot_Click(Object sender, EventArgs e)
+ClientConnectionId:e9806330-c21b-4223-953b-8832a2268d58
+17/04/2017 3:42:22 PM - Billing
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Billing.btn_kot_Click(Object sender, EventArgs e)
+17/04/2017 3:48:45 PM - Billing
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at BisCarePosEdition.Billing.btn_kot_Click(Object sender, EventArgs e)
+18/04/2017 9:26:01 AM - Billing
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at BisCarePosEdition.Billing.dgv_KotDetails_CellClick(Object sender, DataGridViewCellEventArgs e)
+18/04/2017 9:27:42 AM - Billing
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at BisCarePosEdition.Billing.dgv_KotDetails_CellClick(Object sender, DataGridViewCellEventArgs e)
+18/04/2017 9:29:53 AM - Billing
+System.Data.SqlClient.SqlException (0x80131904): Error converting data type nvarchar to bigint.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at BisCarePosEdition.Codebehind.DeleteKotDetaile(String id, String tableid, Int32 mode)
+   at BisCarePosEdition.Billing.dgv_KotDetails_CellClick(Object sender, DataGridViewCellEventArgs e)
+ClientConnectionId:6f3c050d-b55f-48f2-a305-bdda20890a9b
+18/04/2017 9:36:02 AM - Billing
+System.Data.SqlClient.SqlException (0x80131904): Error converting data type nvarchar to bigint.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at BisCarePosEdition.Codebehind.DeleteKotDetaile(String id, String tableid, Int32 mode)
+   at BisCarePosEdition.Billing.dgv_KotDetails_CellClick(Object sender, DataGridViewCellEventArgs e)
+ClientConnectionId:6f3c050d-b55f-48f2-a305-bdda20890a9b
+18/04/2017 9:47:18 AM - Billing
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function spDeleteKotDetaile has too many arguments specified.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at BisCarePosEdition.Codebehind.DeleteKotDetaile(String id, String tableid, String kot, Int32 mode) in D:\Neeshma\SASS Restuarant\15-04-2017\Code\BisCarePosEdition\Codebehind.cs:line 1603
+   at BisCarePosEdition.Billing.dgv_KotDetails_CellClick(Object sender, DataGridViewCellEventArgs e) in D:\Neeshma\SASS Restuarant\15-04-2017\Code\BisCarePosEdition\Billing.cs:line 4068
+ClientConnectionId:b950de06-7a5b-4798-9348-f3f04744354d
+18/04/2017 9:50:32 AM - Billing
+System.Data.SqlClient.SqlException (0x80131904): Error converting data type varchar to bigint.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at BisCarePosEdition.Codebehind.DeleteKotDetaile(String id, String tableid, String kot, Int32 mode)
+   at BisCarePosEdition.Billing.dgv_KotDetails_CellClick(Object sender, DataGridViewCellEventArgs e)
+ClientConnectionId:b950de06-7a5b-4798-9348-f3f04744354d
+18/04/2017 9:51:53 AM - Billing
+System.Data.SqlClient.SqlException (0x80131904): Error converting data type nvarchar to bigint.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at BisCarePosEdition.Codebehind.DeleteKotDetaile(String id, String tableid, String kot, Int32 mode)
+   at BisCarePosEdition.Billing.dgv_KotDetails_CellClick(Object sender, DataGridViewCellEventArgs e)
+ClientConnectionId:b950de06-7a5b-4798-9348-f3f04744354d
+18/04/2017 9:55:41 AM - Billing
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at BisCarePosEdition.Billing.dgv_KotDetails_CellClick(Object sender, DataGridViewCellEventArgs e)
+18/04/2017 9:58:11 AM - Billing
+System.Data.SqlClient.SqlException (0x80131904): Error converting data type varchar to bigint.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at BisCarePosEdition.Codebehind.DeleteKotDetaile(String id, String tableid, String kot, Int32 mode)
+   at BisCarePosEdition.Billing.dgv_KotDetails_CellClick(Object sender, DataGridViewCellEventArgs e)
+ClientConnectionId:b950de06-7a5b-4798-9348-f3f04744354d
+18/04/2017 10:04:45 AM - Billing
+System.Data.SqlClient.SqlException (0x80131904): Error converting data type varchar to bigint.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at BisCarePosEdition.Codebehind.DeleteKotDetaile(String id, String tableid, String kot, Int32 mode)
+   at BisCarePosEdition.Billing.dgv_KotDetails_CellClick(Object sender, DataGridViewCellEventArgs e)
+ClientConnectionId:b950de06-7a5b-4798-9348-f3f04744354d
+18/04/2017 10:08:40 AM - Billing
+System.Data.SqlClient.SqlException (0x80131904): Error converting data type nvarchar to bigint.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at BisCarePosEdition.Codebehind.DeleteKotDetaile(String id, String tableid, String kot, Int32 mode)
+   at BisCarePosEdition.Billing.dgv_KotDetails_CellClick(Object sender, DataGridViewCellEventArgs e)
+ClientConnectionId:b950de06-7a5b-4798-9348-f3f04744354d
+18/04/2017 11:10:33 AM - Billing
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at BisCarePosEdition.Billing.dgv_KotDetails_CellClick(Object sender, DataGridViewCellEventArgs e)
+18/04/2017 11:11:16 AM - Billing
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at BisCarePosEdition.Billing.dgv_KotDetails_CellClick(Object sender, DataGridViewCellEventArgs e)
+18/04/2017 11:13:55 AM - Billing
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at BisCarePosEdition.Billing.dgv_KotDetails_CellClick(Object sender, DataGridViewCellEventArgs e)
+19/04/2017 12:35:50 PM - Customer
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'SP_EditCustomer' expects parameter '@phone', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at BisCarePosEdition.Codebehind.EditCustomer(String cust_id) in D:\Neeshma\SASS Restuarant\18-04-2017\Code\BisCarePosEdition\Codebehind.cs:line 3388
+   at BisCarePosEdition.Customer.cmb_custname_SelectedIndexChanged(Object sender, EventArgs e) in D:\Neeshma\SASS Restuarant\18-04-2017\Code\BisCarePosEdition\Customer.cs:line 560
+ClientConnectionId:53f81aaf-44d9-41c1-a157-8a64ddfd4a82
+19/04/2017 12:36:19 PM - Customer
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'SP_EditCustomer' expects parameter '@phone', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at BisCarePosEdition.Codebehind.EditCustomer(String cust_id) in D:\Neeshma\SASS Restuarant\18-04-2017\Code\BisCarePosEdition\Codebehind.cs:line 3388
+   at BisCarePosEdition.Customer.cmb_custname_SelectedIndexChanged(Object sender, EventArgs e) in D:\Neeshma\SASS Restuarant\18-04-2017\Code\BisCarePosEdition\Customer.cs:line 560
+ClientConnectionId:53f81aaf-44d9-41c1-a157-8a64ddfd4a82
+19/04/2017 12:36:32 PM - Customer
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'SP_EditCustomer' expects parameter '@phone', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at BisCarePosEdition.Codebehind.EditCustomer(String cust_id) in D:\Neeshma\SASS Restuarant\18-04-2017\Code\BisCarePosEdition\Codebehind.cs:line 3388
+   at BisCarePosEdition.Customer.cmb_custname_SelectedIndexChanged(Object sender, EventArgs e) in D:\Neeshma\SASS Restuarant\18-04-2017\Code\BisCarePosEdition\Customer.cs:line 560
+ClientConnectionId:53f81aaf-44d9-41c1-a157-8a64ddfd4a82
+19/04/2017 12:36:51 PM - Customer
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'SP_EditCustomer' expects parameter '@phone', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at BisCarePosEdition.Codebehind.EditCustomer(String cust_id) in D:\Neeshma\SASS Restuarant\18-04-2017\Code\BisCarePosEdition\Codebehind.cs:line 3388
+   at BisCarePosEdition.Customer.cmb_custname_SelectedIndexChanged(Object sender, EventArgs e) in D:\Neeshma\SASS Restuarant\18-04-2017\Code\BisCarePosEdition\Customer.cs:line 560
+ClientConnectionId:53f81aaf-44d9-41c1-a157-8a64ddfd4a82
+19/04/2017 12:36:52 PM - Customer
+System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at BisCarePosEdition.Customer.txt_phno_MouseDoubleClick(Object sender, MouseEventArgs e) in D:\Neeshma\SASS Restuarant\18-04-2017\Code\BisCarePosEdition\Customer.cs:line 670
+19/04/2017 12:36:53 PM - Customer
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'SP_EditCustomer' expects parameter '@phone', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at BisCarePosEdition.Codebehind.EditCustomer(String cust_id) in D:\Neeshma\SASS Restuarant\18-04-2017\Code\BisCarePosEdition\Codebehind.cs:line 3388
+   at BisCarePosEdition.Customer.cmb_custname_SelectedIndexChanged(Object sender, EventArgs e) in D:\Neeshma\SASS Restuarant\18-04-2017\Code\BisCarePosEdition\Customer.cs:line 560
+ClientConnectionId:53f81aaf-44d9-41c1-a157-8a64ddfd4a82
+19/04/2017 12:37:33 PM - Customer
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'SP_EditCustomer' expects parameter '@phone', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at BisCarePosEdition.Codebehind.EditCustomer(String cust_id) in D:\Neeshma\SASS Restuarant\18-04-2017\Code\BisCarePosEdition\Codebehind.cs:line 3388
+   at BisCarePosEdition.Customer.cmb_custname_SelectedIndexChanged(Object sender, EventArgs e) in D:\Neeshma\SASS Restuarant\18-04-2017\Code\BisCarePosEdition\Customer.cs:line 560
+ClientConnectionId:4981e707-e82d-4209-91fb-b532af699fd9
+19/04/2017 12:38:48 PM - Customer
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'SP_EditCustomer' expects parameter '@phone', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at BisCarePosEdition.Codebehind.EditCustomer(String cust_id)
+   at BisCarePosEdition.Customer.cmb_custname_SelectedIndexChanged(Object sender, EventArgs e)
+ClientConnectionId:91a037f7-5bdd-4c7a-b3e2-ca9ee63c0343
+19/04/2017 12:38:53 PM - Customer
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'SP_EditCustomer' expects parameter '@phone', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at BisCarePosEdition.Codebehind.EditCustomer(String cust_id)
+   at BisCarePosEdition.Customer.cmb_custname_SelectedIndexChanged(Object sender, EventArgs e)
+ClientConnectionId:91a037f7-5bdd-4c7a-b3e2-ca9ee63c0343
+19/04/2017 12:38:56 PM - Customer
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'SP_EditCustomer' expects parameter '@phone', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at BisCarePosEdition.Codebehind.EditCustomer(String cust_id)
+   at BisCarePosEdition.Customer.cmb_custname_SelectedIndexChanged(Object sender, EventArgs e)
+ClientConnectionId:91a037f7-5bdd-4c7a-b3e2-ca9ee63c0343
+19/04/2017 12:38:58 PM - Customer
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'SP_EditCustomer' expects parameter '@phone', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at BisCarePosEdition.Codebehind.EditCustomer(String cust_id)
+   at BisCarePosEdition.Customer.cmb_custname_SelectedIndexChanged(Object sender, EventArgs e)
+ClientConnectionId:91a037f7-5bdd-4c7a-b3e2-ca9ee63c0343
+19/04/2017 12:39:05 PM - Customer
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'SP_EditCustomer' expects parameter '@phone', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at BisCarePosEdition.Codebehind.EditCustomer(String cust_id)
+   at BisCarePosEdition.Customer.cmb_custname_SelectedIndexChanged(Object sender, EventArgs e)
+ClientConnectionId:91a037f7-5bdd-4c7a-b3e2-ca9ee63c0343
+19/04/2017 4:32:15 PM - Billing
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridView.get_Item(Int32 columnIndex, Int32 rowIndex)
+   at BisCarePosEdition.Billing.ProcessCmdKey(Message& msg, Keys keyData)
+19/04/2017 4:41:02 PM - Billing
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridView.get_Item(Int32 columnIndex, Int32 rowIndex)
+   at BisCarePosEdition.Billing.ProcessCmdKey(Message& msg, Keys keyData) in D:\Neeshma\SASS Restuarant\18-04-2017\Code\BisCarePosEdition\Billing.cs:line 150
+19/04/2017 5:34:38 PM - Billing
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at BisCarePosEdition.Codebehind.InsertCustomer(String customername, String adress, String phone, String email, String tinno, String cstno, String openingbalance, String custid, String mode, String Credit, String code, String CreditAmount)
+   at BisCarePosEdition.Billing.button2_Click_1(Object sender, EventArgs e)
+19/04/2017 5:36:45 PM - Billing
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at BisCarePosEdition.Codebehind.InsertCustomer(String customername, String adress, String phone, String email, String tinno, String cstno, String openingbalance, String custid, String mode, String Credit, String code, String CreditAmount)
+   at BisCarePosEdition.Billing.button2_Click_1(Object sender, EventArgs e)
+19/04/2017 5:38:01 PM - Billing
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at BisCarePosEdition.Codebehind.InsertCustomer(String customername, String adress, String phone, String email, String tinno, String cstno, String openingbalance, String custid, String mode, String Credit, String code, String CreditAmount)
+   at BisCarePosEdition.Billing.button2_Click_1(Object sender, EventArgs e)
+19/04/2017 5:38:18 PM - Billing
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at BisCarePosEdition.Codebehind.InsertCustomer(String customername, String adress, String phone, String email, String tinno, String cstno, String openingbalance, String custid, String mode, String Credit, String code, String CreditAmount)
+   at BisCarePosEdition.Billing.button2_Click_1(Object sender, EventArgs e)
+20/04/2017 9:26:07 AM - Billing
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at BisCarePosEdition.Codebehind.InsertCustomerdetails(String customername, String adress, String phone, String email, String tinno, String cstno, String openingbalance, String Credit, String code, String CreditAmount) in D:\Neeshma\SASS Restuarant\18-04-2017\Code\BisCarePosEdition\Codebehind.cs:line 3359
+   at BisCarePosEdition.Billing.button2_Click_1(Object sender, EventArgs e) in D:\Neeshma\SASS Restuarant\18-04-2017\Code\BisCarePosEdition\Billing.cs:line 4622
+20/04/2017 9:29:08 AM - Billing
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at BisCarePosEdition.Codebehind.InsertCustomerdetails(String customername, String adress, String phone, String email, String tinno, String cstno, String openingbalance, String Credit, String code, String CreditAmount) in D:\Neeshma\SASS Restuarant\18-04-2017\Code\BisCarePosEdition\Codebehind.cs:line 3359
+   at BisCarePosEdition.Billing.button2_Click_1(Object sender, EventArgs e) in D:\Neeshma\SASS Restuarant\18-04-2017\Code\BisCarePosEdition\Billing.cs:line 4622
+20/04/2017 10:03:34 AM - Billing
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at BisCarePosEdition.Codebehind.InsertCustomerdetails(String customername, String adress, String phone, String email, String tinno, String cstno, Int32 openingbalance, Int32 Credit, String code, Int32 CreditAmount)
+   at BisCarePosEdition.Billing.button2_Click_1(Object sender, EventArgs e)
+20/04/2017 10:03:58 AM - Billing
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at BisCarePosEdition.Codebehind.InsertCustomerdetails(String customername, String adress, String phone, String email, String tinno, String cstno, Int32 openingbalance, Int32 Credit, String code, Int32 CreditAmount)
+   at BisCarePosEdition.Billing.button2_Click_1(Object sender, EventArgs e)
+20/04/2017 10:05:04 AM - Billing
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at BisCarePosEdition.Codebehind.InsertCustomerdetails(String customername, String adress, String phone, String email, String tinno, String cstno, Int32 openingbalance, Int32 Credit, String code, Int32 CreditAmount)
+   at BisCarePosEdition.Billing.button2_Click_1(Object sender, EventArgs e)
+20/04/2017 10:05:06 AM - Billing
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridView.get_Item(Int32 columnIndex, Int32 rowIndex)
+   at BisCarePosEdition.Billing.ProcessCmdKey(Message& msg, Keys keyData)
+20/04/2017 10:05:08 AM - Billing
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridView.get_Item(Int32 columnIndex, Int32 rowIndex)
+   at BisCarePosEdition.Billing.ProcessCmdKey(Message& msg, Keys keyData)
+20/04/2017 10:05:08 AM - Billing
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridView.get_Item(Int32 columnIndex, Int32 rowIndex)
+   at BisCarePosEdition.Billing.ProcessCmdKey(Message& msg, Keys keyData)
+20/04/2017 10:05:09 AM - Billing
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridView.get_Item(Int32 columnIndex, Int32 rowIndex)
+   at BisCarePosEdition.Billing.ProcessCmdKey(Message& msg, Keys keyData)
+20/04/2017 10:05:09 AM - Billing
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridView.get_Item(Int32 columnIndex, Int32 rowIndex)
+   at BisCarePosEdition.Billing.ProcessCmdKey(Message& msg, Keys keyData)
+20/04/2017 10:05:16 AM - Billing
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at BisCarePosEdition.Codebehind.InsertCustomerdetails(String customername, String adress, String phone, String email, String tinno, String cstno, Int32 openingbalance, Int32 Credit, String code, Int32 CreditAmount)
+   at BisCarePosEdition.Billing.button2_Click_1(Object sender, EventArgs e)
+01/05/2017 3:48:18 PM - Billing
+System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'SP_EditCustomerno'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at BisCarePosEdition.Codebehind.EditCustomers(String phone) in D:\Neeshma\SASS Restuarant\18-04-2017\Code\BisCarePosEdition\Codebehind.cs:line 3432
+   at BisCarePosEdition.Billing.txtMobile_KeyDown_1(Object sender, KeyEventArgs e) in D:\Neeshma\SASS Restuarant\18-04-2017\Code\BisCarePosEdition\Billing.cs:line 4676
+ClientConnectionId:b6e83973-bde3-4170-b223-c2a7cd9b9c6c
+01/05/2017 3:48:35 PM - Billing
+System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'SP_EditCustomerno'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at BisCarePosEdition.Codebehind.EditCustomers(String phone) in D:\Neeshma\SASS Restuarant\18-04-2017\Code\BisCarePosEdition\Codebehind.cs:line 3432
+   at BisCarePosEdition.Billing.txtMobile_KeyDown_1(Object sender, KeyEventArgs e) in D:\Neeshma\SASS Restuarant\18-04-2017\Code\BisCarePosEdition\Billing.cs:line 4676
+ClientConnectionId:44481984-9507-407d-bcf3-474e61d96d3b
+01/05/2017 3:58:09 PM - Billing
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridView.get_Item(Int32 columnIndex, Int32 rowIndex)
+   at BisCarePosEdition.Billing.ProcessCmdKey(Message& msg, Keys keyData) in D:\Neeshma\SASS Restuarant\18-04-2017\Code\BisCarePosEdition\Billing.cs:line 150
+01/05/2017 3:59:13 PM - Billing
+System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'SP_EditCustomerno'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at BisCarePosEdition.Codebehind.EditCustomers(String phone)
+   at BisCarePosEdition.Billing.txtMobile_KeyDown_1(Object sender, KeyEventArgs e)
+ClientConnectionId:66fb0d27-99aa-4bbb-8db2-3cf394b96107
+01/05/2017 4:01:41 PM - Billing
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'SP_CustomerNO' expects parameter '@phno', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at BisCarePosEdition.Codebehind.EditCustomers(String phone)
+   at BisCarePosEdition.Billing.txtMobile_KeyDown_1(Object sender, KeyEventArgs e)
+ClientConnectionId:66fb0d27-99aa-4bbb-8db2-3cf394b96107
+01/05/2017 4:08:46 PM - Billing
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'SP_CustomerNO' expects parameter '@phno', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at BisCarePosEdition.Codebehind.EditCustomers(String phone)
+   at BisCarePosEdition.Billing.txtMobile_KeyDown_1(Object sender, KeyEventArgs e)
+ClientConnectionId:66fb0d27-99aa-4bbb-8db2-3cf394b96107
+01/05/2017 4:12:04 PM - Billing
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'SP_EditCustomerno' expects parameter '@phno', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at BisCarePosEdition.Codebehind.EditCustomers(String phone)
+   at BisCarePosEdition.Billing.txtMobile_KeyDown_1(Object sender, KeyEventArgs e)
+ClientConnectionId:66fb0d27-99aa-4bbb-8db2-3cf394b96107
+01/05/2017 4:12:04 PM - Billing
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridView.get_Item(Int32 columnIndex, Int32 rowIndex)
+   at BisCarePosEdition.Billing.ProcessCmdKey(Message& msg, Keys keyData)
+01/05/2017 4:13:33 PM - Billing
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'SP_EditCustomerno' expects parameter '@phno', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at BisCarePosEdition.Codebehind.EditCustomers(String phone)
+   at BisCarePosEdition.Billing.txtMobile_KeyDown_1(Object sender, KeyEventArgs e)
+ClientConnectionId:66fb0d27-99aa-4bbb-8db2-3cf394b96107
+01/05/2017 4:17:28 PM - Billing
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'SP_EditCustomerno' expects parameter '@phno', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at BisCarePosEdition.Codebehind.EditCustomers(String phone)
+   at BisCarePosEdition.Billing.txtMobile_KeyDown_1(Object sender, KeyEventArgs e)
+ClientConnectionId:66fb0d27-99aa-4bbb-8db2-3cf394b96107
+01/05/2017 4:17:28 PM - Billing
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridView.get_Item(Int32 columnIndex, Int32 rowIndex)
+   at BisCarePosEdition.Billing.ProcessCmdKey(Message& msg, Keys keyData)
+01/05/2017 4:17:28 PM - Billing
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridView.get_Item(Int32 columnIndex, Int32 rowIndex)
+   at BisCarePosEdition.Billing.ProcessCmdKey(Message& msg, Keys keyData)
+01/05/2017 4:17:29 PM - Billing
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridView.get_Item(Int32 columnIndex, Int32 rowIndex)
+   at BisCarePosEdition.Billing.ProcessCmdKey(Message& msg, Keys keyData)
+01/05/2017 4:17:29 PM - Billing
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridView.get_Item(Int32 columnIndex, Int32 rowIndex)
+   at BisCarePosEdition.Billing.ProcessCmdKey(Message& msg, Keys keyData)
+01/05/2017 4:17:29 PM - Billing
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridView.get_Item(Int32 columnIndex, Int32 rowIndex)
+   at BisCarePosEdition.Billing.ProcessCmdKey(Message& msg, Keys keyData)
+01/05/2017 4:17:29 PM - Billing
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridView.get_Item(Int32 columnIndex, Int32 rowIndex)
+   at BisCarePosEdition.Billing.ProcessCmdKey(Message& msg, Keys keyData)
+01/05/2017 4:17:29 PM - Billing
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridView.get_Item(Int32 columnIndex, Int32 rowIndex)
+   at BisCarePosEdition.Billing.ProcessCmdKey(Message& msg, Keys keyData)
+01/05/2017 4:17:29 PM - Billing
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridView.get_Item(Int32 columnIndex, Int32 rowIndex)
+   at BisCarePosEdition.Billing.ProcessCmdKey(Message& msg, Keys keyData)
+01/05/2017 4:17:29 PM - Billing
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridView.get_Item(Int32 columnIndex, Int32 rowIndex)
+   at BisCarePosEdition.Billing.ProcessCmdKey(Message& msg, Keys keyData)
+01/05/2017 4:17:29 PM - Billing
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridView.get_Item(Int32 columnIndex, Int32 rowIndex)
+   at BisCarePosEdition.Billing.ProcessCmdKey(Message& msg, Keys keyData)
+01/05/2017 4:17:29 PM - Billing
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridView.get_Item(Int32 columnIndex, Int32 rowIndex)
+   at BisCarePosEdition.Billing.ProcessCmdKey(Message& msg, Keys keyData)
+01/05/2017 4:21:18 PM - Billing
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'SP_EditCustomerno' expects parameter '@phno', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at BisCarePosEdition.Codebehind.EditCustomers(String phone)
+   at BisCarePosEdition.Billing.txtMobile_KeyDown_1(Object sender, KeyEventArgs e)
+ClientConnectionId:54c9b264-8b38-4b2a-9eaf-84da955b7e05
+7/22/2017 2:37:18 PM - Connection in Version Updation
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "SAS" requested by the login. The login failed.
+Login failed for user 'LOYAL-PC4\Minnu'.
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at BisCarePosEdition.Theme.Opencon() in D:\Neeshma\SASS Restuarant\18-04-2017\Code\BisCarePosEdition\Theme.cs:line 21
+ClientConnectionId:00fb89e9-d605-46d8-9855-dd3ae2edbfb2
+19-Aug-17 2:29:57 PM - Connection in Version Updation
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at BisCarePosEdition.Theme.Opencon() in E:\QBICS GST\PURE VEG RESTAURANT\Code\BisCarePosEdition\Theme.cs:line 21
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20
+31-Jan-19 11:42:48 AM - Connection in Version Updation
+System.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=13; handshake=31; [Login] initialization=0; authentication=0; [Post-Login] complete=14297;  ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at BisCarePosEdition.Theme.Opencon() in D:\Ashida\RESTAURENT\FOOD FACTORY\Code\BisCarePosEdition\Theme.cs:line 21
+ClientConnectionId:e348b32f-ccc8-4913-8fc5-4c9f5fb497a3
+Error Number:-2,State:0,Class:11

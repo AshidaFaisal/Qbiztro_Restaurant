@@ -1,0 +1,143 @@
+19-Oct-18 10:43:29 AM - Billing
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Billing.SetDefaultWaiter() in D:\Ashida\RESTAURENT\MUSRIZ\10-Oct-2018\Code\BisCarePosEdition\Billing.cs:line 4844
+   at BisCarePosEdition.Billing.cbox_table_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\MUSRIZ\10-Oct-2018\Code\BisCarePosEdition\Billing.cs:line 455
+05-Nov-18 12:38:17 PM - Item
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Item.Cmb_itemname_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\MUSRIZ\05-Nov-2018\Code\BisCarePosEdition\Item.cs:line 756
+05-Nov-18 12:38:17 PM - Item
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Item.Cmb_itemname_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\MUSRIZ\05-Nov-2018\Code\BisCarePosEdition\Item.cs:line 756
+05-Nov-18 12:38:58 PM - Item
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Item.Cmb_itemname_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\MUSRIZ\05-Nov-2018\Code\BisCarePosEdition\Item.cs:line 756
+05-Nov-18 12:38:58 PM - Item
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Item.Cmb_itemname_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\MUSRIZ\05-Nov-2018\Code\BisCarePosEdition\Item.cs:line 756
+05-Nov-18 12:52:46 PM - Item
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Item.Cmb_itemname_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\MUSRIZ\05-Nov-2018\Code\BisCarePosEdition\Item.cs:line 756
+05-Nov-18 12:52:46 PM - Item
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Item.Cmb_itemname_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\MUSRIZ\05-Nov-2018\Code\BisCarePosEdition\Item.cs:line 756
+05-Nov-18 12:55:10 PM - Item
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Item.Cmb_itemname_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\MUSRIZ\05-Nov-2018\Code\BisCarePosEdition\Item.cs:line 756
+05-Nov-18 12:55:10 PM - Item
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Item.Cmb_itemname_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\MUSRIZ\05-Nov-2018\Code\BisCarePosEdition\Item.cs:line 756
+05-Nov-18 1:11:23 PM - Item
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Item.Cmb_itemname_SelectedIndexChanged(Object sender, EventArgs e)
+05-Nov-18 1:11:23 PM - Item
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Item.Cmb_itemname_SelectedIndexChanged(Object sender, EventArgs e)
+05-Nov-18 1:11:47 PM - Item
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Item.Cmb_itemname_SelectedIndexChanged(Object sender, EventArgs e)
+05-Nov-18 1:11:48 PM - Item
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Item.Cmb_itemname_SelectedIndexChanged(Object sender, EventArgs e)
+05-Nov-18 1:18:37 PM - Item
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Item.Cmb_itemname_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\MUSRIZ\05-Nov-2018\Code\BisCarePosEdition\Item.cs:line 757
+05-Nov-18 1:18:38 PM - Item
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Item.Cmb_itemname_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\MUSRIZ\05-Nov-2018\Code\BisCarePosEdition\Item.cs:line 757
+05-Nov-18 1:26:36 PM - Item
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Item.Cmb_itemname_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\MUSRIZ\05-Nov-2018\Code\BisCarePosEdition\Item.cs:line 757
+05-Nov-18 1:26:36 PM - Item
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Item.Cmb_itemname_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\MUSRIZ\05-Nov-2018\Code\BisCarePosEdition\Item.cs:line 757
+05-Nov-18 2:10:47 PM - Item
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Item.Cmb_itemname_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\MUSRIZ\05-Nov-2018\Code\BisCarePosEdition\Item.cs:line 757
+05-Nov-18 2:10:47 PM - Item
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Item.Cmb_itemname_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\MUSRIZ\05-Nov-2018\Code\BisCarePosEdition\Item.cs:line 757
+05-Nov-18 4:34:03 PM - Billing
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Billing.txt_packing_TextChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\MUSRIZ\05-Nov-2018\Code\BisCarePosEdition\Billing.cs:line 4594
+05-Nov-18 4:37:47 PM - Billing
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Billing.txt_packing_TextChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\MUSRIZ\05-Nov-2018\Code\BisCarePosEdition\Billing.cs:line 4594
+05-Nov-18 4:59:32 PM - Billing
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Billing.txt_packing_TextChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\MUSRIZ\05-Nov-2018\Code\BisCarePosEdition\Billing.cs:line 4595
+05-Nov-18 5:11:10 PM - Billing
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Billing.txt_packing_TextChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\MUSRIZ\05-Nov-2018\Code\BisCarePosEdition\Billing.cs:line 4614
+05-Nov-18 5:11:21 PM - Billing
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Billing.txt_packing_TextChanged(Object sender, EventArgs e) in D:\Ashida\RESTAURENT\MUSRIZ\05-Nov-2018\Code\BisCarePosEdition\Billing.cs:line 4614
+05-Nov-18 5:12:59 PM - Billing
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Billing.txt_packing_TextChanged(Object sender, EventArgs e)
+05-Nov-18 5:13:05 PM - Billing
+System.Data.SqlClient.SqlException (0x80131904): Error converting data type nvarchar to numeric.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at BisCarePosEdition.Codebehind.InsertInvoiceMaster(String inNo, DateTime date, String custname, String custmob, String custemail, Int32 status, String total, Int32 compliment, String discount, String paidamnt, String custst, String custid, String userid, String packingcharge, Int32 billtype, DateTime storedate, Int32 paymode, String cashamt, String cardamt, String billingmode, String tax)
+   at BisCarePosEdition.Billing.btn_printBill_Click(Object sender, EventArgs e)
+ClientConnectionId:92894334-4f3b-4f90-b791-3ec89ff18426
+Error Number:8114,State:5,Class:16

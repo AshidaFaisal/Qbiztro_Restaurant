@@ -1,0 +1,2849 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{575F8D96-D15D-4FB6-96A4-D3DD4CED88DA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BisCarePosEdition</RootNamespace>
+    <AssemblyName>BisCarePosEdition</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BackupDB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BackupDB.Designer.cs">
+      <DependentUpon>BackupDB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bank.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bank.designer.cs">
+      <DependentUpon>Bank.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BankTrnsaction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BankTrnsaction.Designer.cs">
+      <DependentUpon>BankTrnsaction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Biling.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Biling.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Billing Features.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Billing Features.Designer.cs">
+      <DependentUpon>Billing Features.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Billing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Billing.Designer.cs">
+      <DependentUpon>Billing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="billingclass.cs" />
+    <Compile Include="Billing_details.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Billing_details.Designer.cs">
+      <DependentUpon>Billing_details.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bills.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bills.Designer.cs">
+      <DependentUpon>Bills.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Brand.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Brand.Designer.cs">
+      <DependentUpon>Brand.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Calculator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Calculator.designer.cs">
+      <DependentUpon>Calculator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Category.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Category.designer.cs">
+      <DependentUpon>Category.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClearTransactions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClearTransactions.Designer.cs">
+      <DependentUpon>ClearTransactions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Codebehind.cs" />
+    <Compile Include="Complimentary Invoice Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Complimentary Invoice Report.Designer.cs">
+      <DependentUpon>Complimentary Invoice Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ComplimentaryRemarks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ComplimentaryRemarks.Designer.cs">
+      <DependentUpon>ComplimentaryRemarks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Complimentary_touchbill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Complimentary_touchbill.Designer.cs">
+      <DependentUpon>Complimentary_touchbill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cost_Analysis_Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cost_Analysis_Report.Designer.cs">
+      <DependentUpon>Cost_Analysis_Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetItemReport.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetItemReport.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetpendingkotdin.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetpendingkotdin.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DB_AdhidhiDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DB_AdhidhiDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DB_AdhidhiDataSetinvoice.xsd.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DB_AdhidhiDataSetinvoice.xsd.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DB_QbiztroDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DB_QbiztroDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DB_QbiztroDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DB_QbiztroDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Department.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Department.Designer.cs">
+      <DependentUpon>Department.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DiscountReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DiscountReport.Designer.cs">
+      <DependentUpon>DiscountReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet_ReportProductStock.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet_ReportProductStock.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_DiscountReport.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_DiscountReport.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Food _Cost.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Food _Cost.Designer.cs">
+      <DependentUpon>Food _Cost.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form Complimentary Invoice Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Complimentary Invoice Report.Designer.cs">
+      <DependentUpon>Form Complimentary Invoice Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formdynamic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formdynamic.Designer.cs">
+      <DependentUpon>Formdynamic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormInvoiceReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormInvoiceReport.Designer.cs">
+      <DependentUpon>FormInvoiceReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDiscountReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDiscountReport.Designer.cs">
+      <DependentUpon>FrmDiscountReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmItemsReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmItemsReport.Designer.cs">
+      <DependentUpon>FrmItemsReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmReportProductStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReportProductStock.Designer.cs">
+      <DependentUpon>frmReportProductStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmsaleanalysisreport1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmsaleanalysisreport1.Designer.cs">
+      <DependentUpon>Frmsaleanalysisreport1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_pendingkot2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_pendingkot2.Designer.cs">
+      <DependentUpon>frm_pendingkot2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_pendingkotprint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_pendingkotprint.Designer.cs">
+      <DependentUpon>frm_pendingkotprint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="globalvariable.cs" />
+    <Compile Include="Home page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home page.Designer.cs">
+      <DependentUpon>Home page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InvoiceReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InvoiceReport.Designer.cs">
+      <DependentUpon>InvoiceReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Items_Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Items_Report.Designer.cs">
+      <DependentUpon>Items_Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyClass.cs" />
+    <Compile Include="NewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewForm.Designer.cs">
+      <DependentUpon>NewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Payment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Payment.Designer.cs">
+      <DependentUpon>Payment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductStockReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductStockReport.Designer.cs">
+      <DependentUpon>ProductStockReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DamageEntrySearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DamageEntrySearch.Designer.cs">
+      <DependentUpon>DamageEntrySearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductDamageEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductDamageEntry.Designer.cs">
+      <DependentUpon>ProductDamageEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductStockEntrySearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductStockEntrySearch.Designer.cs">
+      <DependentUpon>ProductStockEntrySearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductStock.Designer.cs">
+      <DependentUpon>ProductStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Counter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Counter.Designer.cs">
+      <DependentUpon>Counter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Country.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Country.designer.cs">
+      <DependentUpon>Country.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreditCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreditCustomer.Designer.cs">
+      <DependentUpon>CreditCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer.Designer.cs">
+      <DependentUpon>Customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerSearch.Designer.cs">
+      <DependentUpon>CustomerSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DayBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DayBook.Designer.cs">
+      <DependentUpon>DayBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DayClosing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DayClosing.Designer.cs">
+      <DependentUpon>DayClosing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSet13.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSet14.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSet15.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSet15.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSet16.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSet16.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSet17.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSet17.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSet18.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSet18.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSet19.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSet19.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSet20.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSet20.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSet21.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSet21.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSet22.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSet22.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSet23.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSet23.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSet24.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSet24.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSet25.Designer.cs">
+      <DependentUpon>dbBizcarePosDataSet25.xsd</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSet26.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSet26.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSet27.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSet27.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSet28.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSet28.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSet29.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSet29.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSet30.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSet30.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSet31.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSet31.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSet32.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSet32.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSet33.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSet33.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSet34.Designer.cs" />
+    <Compile Include="dbBizcarePosDataSet38.Designer.cs" />
+    <Compile Include="dbBizcarePosDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSet42.Designer.cs" />
+    <Compile Include="dbBizcarePosDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSetBankTransBank.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSetBankTransBank.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSetBankTransReport.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSetBankTransReport.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSetDayBookBasic.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSetDayBookBasic.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSetDayBookReport.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSetDayBookReport.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSetGetInvoiceAMnt.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSetGetInvoiceAMnt.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSetGetInvoiceMstrAmount.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSetGetInvoiceMstrAmount.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSetGetIvoiceAmount.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSetGetIvoiceAmount.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSetPayableReport.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSetPayableReport.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSetPaymentVoucherOldPayReceive.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSetPaymentVoucherOldPayReceive.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSetPrintPaymentMaster.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSetPrintPaymentMaster.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSetPrintPaymentVDetails.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSetPrintPaymentVDetails.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSetPrintPaymentVDetailsOld.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSetPrintPaymentVDetailsOld.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSetPrintPaymentVMasterold.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSetPrintPaymentVMasterold.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSetPrintPaymentVOldOther.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSetPrintPaymentVOldOther.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSetPrintPaymentVOther.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSetPrintPaymentVOther.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSetPrintReceiptDetailsOld.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSetPrintReceiptDetailsOld.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSetPrintReceiptVoucherOldReceive.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSetPrintReceiptVoucherOldReceive.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSetPrintReceiptVoucherOldReceiveOther.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSetPrintReceiptVoucherOldReceiveOther.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSetrd.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSetrd.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSetreceiptm.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSetreceiptm.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSetReceiptOther.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSetReceiptOther.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSetReceivableReport.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSetReceivableReport.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSetReportBankTransactionType.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSetReportBankTransactionType.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSetReportDailySalesReport.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSetReportDailySalesReport.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSetReportDeleatedKotDetails.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSetReportDeleatedKotDetails.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSetReportDeletedCustMst.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSetReportDeletedCustMst.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSetReportDeletedInvoiceDetails.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSetReportDeletedInvoiceDetails.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSetReportDeletedInvoiceDetailsnew.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSetReportDeletedInvoiceDetailsnew.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSetReportDeletedInvoiceMstr.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSetReportDeletedInvoiceMstr.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSetReportDeletedKotMaster.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSetReportDeletedKotMaster.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSetReportDeleteKotDetailsnew.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSetReportDeleteKotDetailsnew.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSetReportOtherExpence.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSetReportOtherExpence.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSetReportOtherExpenceType.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSetReportOtherExpenceType.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSetReportOtherIncome.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSetReportOtherIncome.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSetReportOtherIncomeType.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSetReportOtherIncomeType.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSetReportSales.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSetReportSales.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosDataSetStkReportnew.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosDataSetStkReportnew.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosOldDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosOldDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosOldDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosOldDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBizcarePosOldDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBizcarePosOldDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dealer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dealer.designer.cs">
+      <DependentUpon>dealer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DealerSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DealerSearch.Designer.cs">
+      <DependentUpon>DealerSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteBill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteBill.Designer.cs">
+      <DependentUpon>DeleteBill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeletedInvoiceReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeletedInvoiceReport.Designer.cs">
+      <DependentUpon>DeletedInvoiceReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeletePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeletePassword.Designer.cs">
+      <DependentUpon>DeletePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeletePasswordChange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeletePasswordChange.Designer.cs">
+      <DependentUpon>DeletePasswordChange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Designation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Designation.Designer.cs">
+      <DependentUpon>Designation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DilySalesReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DilySalesReport.Designer.cs">
+      <DependentUpon>DilySalesReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dim.cs" />
+    <Compile Include="Employee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employee.designer.cs">
+      <DependentUpon>Employee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeSearch.designer.cs">
+      <DependentUpon>EmployeSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBankTransByType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBankTransByType.Designer.cs">
+      <DependentUpon>FrmBankTransByType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBankTransReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBankTransReport.Designer.cs">
+      <DependentUpon>FrmBankTransReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBankTransReportByBank.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBankTransReportByBank.Designer.cs">
+      <DependentUpon>FrmBankTransReportByBank.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDailySalesReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDailySalesReport.Designer.cs">
+      <DependentUpon>FrmDailySalesReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDailySalesReportByDate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDailySalesReportByDate.Designer.cs">
+      <DependentUpon>FrmDailySalesReportByDate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDeletedComplimentaryReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDeletedComplimentaryReport.Designer.cs">
+      <DependentUpon>FrmDeletedComplimentaryReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDeletedInvoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDeletedInvoice.Designer.cs">
+      <DependentUpon>FrmDeletedInvoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeletedInvoiceReportShort.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeletedInvoiceReportShort.Designer.cs">
+      <DependentUpon>DeletedInvoiceReportShort.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDeletedInvoiceReportShort.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDeletedInvoiceReportShort.Designer.cs">
+      <DependentUpon>frmDeletedInvoiceReportShort.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDeletedKotDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDeletedKotDetails.Designer.cs">
+      <DependentUpon>FrmDeletedKotDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGoodsReceiptBrief.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGoodsReceiptBrief.designer.cs">
+      <DependentUpon>FrmGoodsReceiptBrief.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGoodsReceiptMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGoodsReceiptMain.designer.cs">
+      <DependentUpon>FrmGoodsReceiptMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmKotPrint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmKotPrint.Designer.cs">
+      <DependentUpon>FrmKotPrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmKotPrintTake.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmKotPrintTake.Designer.cs">
+      <DependentUpon>FrmKotPrintTake.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOtherExpenceReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOtherExpenceReport.Designer.cs">
+      <DependentUpon>FrmOtherExpenceReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrintBill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrintBill.Designer.cs">
+      <DependentUpon>FrmPrintBill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrintBillCounter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrintBillCounter.Designer.cs">
+      <DependentUpon>FrmPrintBillCounter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrintBillTake.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrintBillTake.Designer.cs">
+      <DependentUpon>FrmPrintBillTake.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrintPayableRecievable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrintPayableRecievable.Designer.cs">
+      <DependentUpon>FrmPrintPayableRecievable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrintPaymentVoucher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrintPaymentVoucher.Designer.cs">
+      <DependentUpon>FrmPrintPaymentVoucher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrintPaymentVoucherOldPay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrintPaymentVoucherOldPay.Designer.cs">
+      <DependentUpon>FrmPrintPaymentVoucherOldPay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrintPaymentVoucherOldPayOther.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrintPaymentVoucherOldPayOther.Designer.cs">
+      <DependentUpon>FrmPrintPaymentVoucherOldPayOther.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrintPaymentVoucherOther.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrintPaymentVoucherOther.Designer.cs">
+      <DependentUpon>FrmPrintPaymentVoucherOther.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrintReceiptVoucher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrintReceiptVoucher.Designer.cs">
+      <DependentUpon>FrmPrintReceiptVoucher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrintReceiptVoucherOldReceive.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrintReceiptVoucherOldReceive.Designer.cs">
+      <DependentUpon>FrmPrintReceiptVoucherOldReceive.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrintReceiptVoucherOldReceiveOther.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrintReceiptVoucherOldReceiveOther.Designer.cs">
+      <DependentUpon>FrmPrintReceiptVoucherOldReceiveOther.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrintReceiptVoucherOther.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrintReceiptVoucherOther.Designer.cs">
+      <DependentUpon>FrmPrintReceiptVoucherOther.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReportDayBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReportDayBook.Designer.cs">
+      <DependentUpon>FrmReportDayBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReportOtherExpence.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReportOtherExpence.Designer.cs">
+      <DependentUpon>FrmReportOtherExpence.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReportOtherIncome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReportOtherIncome.Designer.cs">
+      <DependentUpon>FrmReportOtherIncome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReportOtherIncomeType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReportOtherIncomeType.Designer.cs">
+      <DependentUpon>FrmReportOtherIncomeType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReportPayable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReportPayable.Designer.cs">
+      <DependentUpon>FrmReportPayable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSaleReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSaleReport.Designer.cs">
+      <DependentUpon>FrmSaleReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home1.designer.cs">
+      <DependentUpon>Home1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IncomeExpenseType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IncomeExpenseType.designer.cs">
+      <DependentUpon>IncomeExpenseType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="item_mapping.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="item_mapping.designer.cs">
+      <DependentUpon>item_mapping.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OldPayableReceivable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OldPayableReceivable.Designer.cs">
+      <DependentUpon>OldPayableReceivable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OtherExpenceNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OtherExpenceNew.Designer.cs">
+      <DependentUpon>OtherExpenceNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OtherIncomeNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OtherIncomeNew.Designer.cs">
+      <DependentUpon>OtherIncomeNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PasswordChange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PasswordChange.Designer.cs">
+      <DependentUpon>PasswordChange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PaymentVoucher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PaymentVoucher.Designer.cs">
+      <DependentUpon>PaymentVoucher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PaymentVoucherSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PaymentVoucherSearch.Designer.cs">
+      <DependentUpon>PaymentVoucherSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Paymode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Paymode.Designer.cs">
+      <DependentUpon>Paymode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductStockEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductStockEntry.Designer.cs">
+      <DependentUpon>ProductStockEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReceiptVoucher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReceiptVoucher.Designer.cs">
+      <DependentUpon>ReceiptVoucher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportBankTransaction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportBankTransaction.Designer.cs">
+      <DependentUpon>ReportBankTransaction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportDeletedKotDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportDeletedKotDetails.Designer.cs">
+      <DependentUpon>ReportDeletedKotDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGoodsRec.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGoodsRec.Designer.cs">
+      <DependentUpon>ReportGoodsRec.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportOtherExpence.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportOtherExpence.Designer.cs">
+      <DependentUpon>ReportOtherExpence.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportOtherIncome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportOtherIncome.Designer.cs">
+      <DependentUpon>ReportOtherIncome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportPayableRecievable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportPayableRecievable.designer.cs">
+      <DependentUpon>ReportPayableRecievable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reprint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reprint.Designer.cs">
+      <DependentUpon>Reprint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ResetDB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResetDB.Designer.cs">
+      <DependentUpon>ResetDB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RestoreDB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RestoreDB.Designer.cs">
+      <DependentUpon>RestoreDB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Restuarant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Restuarant.Designer.cs">
+      <DependentUpon>Restuarant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalesReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesReport.Designer.cs">
+      <DependentUpon>SalesReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalesReportByDate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesReportByDate.Designer.cs">
+      <DependentUpon>SalesReportByDate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sale_Analysis_Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sale_Analysis_Report.Designer.cs">
+      <DependentUpon>Sale_Analysis_Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchBill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchBill.Designer.cs">
+      <DependentUpon>SearchBill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Item.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Item.Designer.cs">
+      <DependentUpon>Item.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ItemSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ItemSearch.Designer.cs">
+      <DependentUpon>ItemSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PendingOT%27S.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PendingOT%27S.Designer.cs">
+      <DependentUpon>PendingOT%27S.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteKot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteKot.Designer.cs">
+      <DependentUpon>DeleteKot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="searchReceiptvoucher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="searchReceiptvoucher.Designer.cs">
+      <DependentUpon>searchReceiptvoucher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Splash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Splash.designer.cs">
+      <DependentUpon>Splash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StockEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StockEntry.Designer.cs">
+      <DependentUpon>StockEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StockEntrySearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StockEntrySearch.Designer.cs">
+      <DependentUpon>StockEntrySearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StockReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StockReport.Designer.cs">
+      <DependentUpon>StockReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StockReportNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StockReportNew.Designer.cs">
+      <DependentUpon>StockReportNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Store Operations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Store Operations.Designer.cs">
+      <DependentUpon>Store Operations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SwipingMachine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SwipingMachine.Designer.cs">
+      <DependentUpon>SwipingMachine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tables.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tables.Designer.cs">
+      <DependentUpon>Tables.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tax.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tax.designer.cs">
+      <DependentUpon>Tax.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Theme.cs" />
+    <Compile Include="ThemeRoller.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThemeRoller.designer.cs">
+      <DependentUpon>ThemeRoller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TouchBilling.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TouchBilling.designer.cs">
+      <DependentUpon>TouchBilling.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Unit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Unit.Designer.cs">
+      <DependentUpon>Unit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="User.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User.Designer.cs">
+      <DependentUpon>User.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserAccountType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserAccountType.Designer.cs">
+      <DependentUpon>UserAccountType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserRightscs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserRightscs.Designer.cs">
+      <DependentUpon>UserRightscs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewDayClosing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewDayClosing.Designer.cs">
+      <DependentUpon>ViewDayClosing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="waiter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="waiter.Designer.cs">
+      <DependentUpon>waiter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="waiters_list.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="waiters_list.Designer.cs">
+      <DependentUpon>waiters_list.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BackupDB.resx">
+      <DependentUpon>BackupDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bank.resx">
+      <DependentUpon>Bank.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BankTrnsaction.resx">
+      <DependentUpon>BankTrnsaction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Biling.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Biling.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Billing Features.resx">
+      <DependentUpon>Billing Features.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Billing.resx">
+      <DependentUpon>Billing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Billing_details.resx">
+      <DependentUpon>Billing_details.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bills.resx">
+      <DependentUpon>Bills.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Brand.resx">
+      <DependentUpon>Brand.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calculator.resx">
+      <DependentUpon>Calculator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Category.resx">
+      <DependentUpon>Category.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClearTransactions.resx">
+      <DependentUpon>ClearTransactions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Complimentary Invoice Report.resx">
+      <DependentUpon>Complimentary Invoice Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ComplimentaryRemarks.resx">
+      <DependentUpon>ComplimentaryRemarks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Complimentary_touchbill.resx">
+      <DependentUpon>Complimentary_touchbill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cost_Analysis_Report.resx">
+      <DependentUpon>Cost_Analysis_Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Department.resx">
+      <DependentUpon>Department.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DiscountReport.resx">
+      <DependentUpon>DiscountReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Food _Cost.resx">
+      <DependentUpon>Food _Cost.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Complimentary Invoice Report.resx">
+      <DependentUpon>Form Complimentary Invoice Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formdynamic.resx">
+      <DependentUpon>Formdynamic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormInvoiceReport.resx">
+      <DependentUpon>FormInvoiceReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDiscountReport.resx">
+      <DependentUpon>FrmDiscountReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmItemsReport.resx">
+      <DependentUpon>FrmItemsReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReportProductStock.resx">
+      <DependentUpon>frmReportProductStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmsaleanalysisreport1.resx">
+      <DependentUpon>Frmsaleanalysisreport1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_pendingkot2.resx">
+      <DependentUpon>frm_pendingkot2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_pendingkotprint.resx">
+      <DependentUpon>frm_pendingkotprint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home page.resx">
+      <DependentUpon>Home page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InvoiceReport.resx">
+      <DependentUpon>InvoiceReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Items_Report.resx">
+      <DependentUpon>Items_Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewForm.resx">
+      <DependentUpon>NewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Payment.resx">
+      <DependentUpon>Payment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductStockReport.resx">
+      <DependentUpon>ProductStockReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DamageEntrySearch.resx">
+      <DependentUpon>DamageEntrySearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductDamageEntry.resx">
+      <DependentUpon>ProductDamageEntry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductStockEntrySearch.resx">
+      <DependentUpon>ProductStockEntrySearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductStock.resx">
+      <DependentUpon>ProductStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Counter.resx">
+      <DependentUpon>Counter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Country.resx">
+      <DependentUpon>Country.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreditCustomer.resx">
+      <DependentUpon>CreditCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer.resx">
+      <DependentUpon>Customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerSearch.resx">
+      <DependentUpon>CustomerSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DayBook.resx">
+      <DependentUpon>DayBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DayClosing.resx">
+      <DependentUpon>DayClosing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dealer.resx">
+      <DependentUpon>dealer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DealerSearch.resx">
+      <DependentUpon>DealerSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteBill.resx">
+      <DependentUpon>DeleteBill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeletedInvoiceReport.resx">
+      <DependentUpon>DeletedInvoiceReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeletePassword.resx">
+      <DependentUpon>DeletePassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeletePasswordChange.resx">
+      <DependentUpon>DeletePasswordChange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Designation.resx">
+      <DependentUpon>Designation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DilySalesReport.resx">
+      <DependentUpon>DilySalesReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employee.resx">
+      <DependentUpon>Employee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeSearch.resx">
+      <DependentUpon>EmployeSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBankTransByType.resx">
+      <DependentUpon>FrmBankTransByType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBankTransReport.resx">
+      <DependentUpon>FrmBankTransReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBankTransReportByBank.resx">
+      <DependentUpon>FrmBankTransReportByBank.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDailySalesReport.resx">
+      <DependentUpon>FrmDailySalesReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDailySalesReportByDate.resx">
+      <DependentUpon>FrmDailySalesReportByDate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDeletedComplimentaryReport.resx">
+      <DependentUpon>FrmDeletedComplimentaryReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDeletedInvoice.resx">
+      <DependentUpon>FrmDeletedInvoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeletedInvoiceReportShort.resx">
+      <DependentUpon>DeletedInvoiceReportShort.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDeletedInvoiceReportShort.resx">
+      <DependentUpon>frmDeletedInvoiceReportShort.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDeletedKotDetails.resx">
+      <DependentUpon>FrmDeletedKotDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGoodsReceiptBrief.resx">
+      <DependentUpon>FrmGoodsReceiptBrief.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGoodsReceiptMain.resx">
+      <DependentUpon>FrmGoodsReceiptMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmKotPrint.resx">
+      <DependentUpon>FrmKotPrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmKotPrintTake.resx">
+      <DependentUpon>FrmKotPrintTake.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOtherExpenceReport.resx">
+      <DependentUpon>FrmOtherExpenceReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrintBill.resx">
+      <DependentUpon>FrmPrintBill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrintBillCounter.resx">
+      <DependentUpon>FrmPrintBillCounter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrintBillTake.resx">
+      <DependentUpon>FrmPrintBillTake.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrintPayableRecievable.resx">
+      <DependentUpon>FrmPrintPayableRecievable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrintPaymentVoucher.resx">
+      <DependentUpon>FrmPrintPaymentVoucher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrintPaymentVoucherOldPay.resx">
+      <DependentUpon>FrmPrintPaymentVoucherOldPay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrintPaymentVoucherOldPayOther.resx">
+      <DependentUpon>FrmPrintPaymentVoucherOldPayOther.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrintPaymentVoucherOther.resx">
+      <DependentUpon>FrmPrintPaymentVoucherOther.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrintReceiptVoucher.resx">
+      <DependentUpon>FrmPrintReceiptVoucher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrintReceiptVoucherOldReceive.resx">
+      <DependentUpon>FrmPrintReceiptVoucherOldReceive.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrintReceiptVoucherOldReceiveOther.resx">
+      <DependentUpon>FrmPrintReceiptVoucherOldReceiveOther.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrintReceiptVoucherOther.resx">
+      <DependentUpon>FrmPrintReceiptVoucherOther.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReportDayBook.resx">
+      <DependentUpon>FrmReportDayBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReportOtherExpence.resx">
+      <DependentUpon>FrmReportOtherExpence.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReportOtherIncome.resx">
+      <DependentUpon>FrmReportOtherIncome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReportOtherIncomeType.resx">
+      <DependentUpon>FrmReportOtherIncomeType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReportPayable.resx">
+      <DependentUpon>FrmReportPayable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSaleReport.resx">
+      <DependentUpon>FrmSaleReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home1.resx">
+      <DependentUpon>Home1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IncomeExpenseType.resx">
+      <DependentUpon>IncomeExpenseType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="item_mapping.resx">
+      <DependentUpon>item_mapping.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OldPayableReceivable.resx">
+      <DependentUpon>OldPayableReceivable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OtherExpenceNew.resx">
+      <DependentUpon>OtherExpenceNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OtherIncomeNew.resx">
+      <DependentUpon>OtherIncomeNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PasswordChange.resx">
+      <DependentUpon>PasswordChange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PaymentVoucher.resx">
+      <DependentUpon>PaymentVoucher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PaymentVoucherSearch.resx">
+      <DependentUpon>PaymentVoucherSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Paymode.resx">
+      <DependentUpon>Paymode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintKot.rdlc" />
+    <EmbeddedResource Include="PrintKotTake.rdlc" />
+    <EmbeddedResource Include="PrintBill.rdlc" />
+    <EmbeddedResource Include="PrintCounter.rdlc" />
+    <EmbeddedResource Include="ProductStockEntry.resx">
+      <DependentUpon>ProductStockEntry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RDLC_InvoiceDiscountReport.rdlc" />
+    <EmbeddedResource Include="ReceiptVoucher.resx">
+      <DependentUpon>ReceiptVoucher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report3.rdlc" />
+    <EmbeddedResource Include="Report4.rdlc" />
+    <EmbeddedResource Include="ReportDayBook.rdlc" />
+    <EmbeddedResource Include="ReportBankTransReport.rdlc" />
+    <EmbeddedResource Include="ReportBankTransType.rdlc" />
+    <EmbeddedResource Include="ReportBankTransactionBank.rdlc" />
+    <EmbeddedResource Include="ReportBankTransaction.resx">
+      <DependentUpon>ReportBankTransaction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGoodsRec.resx">
+      <DependentUpon>ReportGoodsRec.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportItems.rdlc" />
+    <EmbeddedResource Include="ReportPayableRecievable.resx">
+      <DependentUpon>ReportPayableRecievable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportpendingkotdin.rdlc" />
+    <EmbeddedResource Include="ReportProductStock.rdlc" />
+    <EmbeddedResource Include="ReportReceivable.rdlc" />
+    <EmbeddedResource Include="ReportPayable.rdlc" />
+    <EmbeddedResource Include="ReportReceiptVoucherOldPayReceive.rdlc" />
+    <EmbeddedResource Include="ReportReceiptOldPayOther.rdlc" />
+    <EmbeddedResource Include="ReportReceptVoucher.rdlc" />
+    <EmbeddedResource Include="ReportReceiptDetailsOther.rdlc" />
+    <EmbeddedResource Include="ReportPaymentVOldOther.rdlc" />
+    <EmbeddedResource Include="ReportPaymentVOldpay.rdlc" />
+    <EmbeddedResource Include="ReportPaymentVOther.rdlc" />
+    <EmbeddedResource Include="ReportPaymentVPrint.rdlc" />
+    <EmbeddedResource Include="ReportDeletedInvoieShort.rdlc" />
+    <EmbeddedResource Include="ReportofDeletedInvoiceComplimentary.rdlc" />
+    <EmbeddedResource Include="ReportSales.rdlc" />
+    <EmbeddedResource Include="Report_Complimentary_invoice.rdlc" />
+    <EmbeddedResource Include="Report_Cost_Analysis.rdlc" />
+    <EmbeddedResource Include="Report_invoice.rdlc.rdlc" />
+    <EmbeddedResource Include="Reprint.resx">
+      <DependentUpon>Reprint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaleAnalysisReports.rdlc" />
+    <EmbeddedResource Include="SalesReportByDate.rdlc" />
+    <EmbeddedResource Include="ReportStock.rdlc" />
+    <EmbeddedResource Include="ReportOtherExpenceType.rdlc" />
+    <EmbeddedResource Include="ReportOtherIncomeType.rdlc" />
+    <EmbeddedResource Include="ReportOtherExpence.rdlc" />
+    <EmbeddedResource Include="ReportOtherExpence.resx">
+      <DependentUpon>ReportOtherExpence.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportOtherIncome.rdlc" />
+    <EmbeddedResource Include="ReportDeletedKotDetails.rdlc" />
+    <EmbeddedResource Include="ReportDeletedInvoiceDetails.rdlc" />
+    <EmbeddedResource Include="ReportDeletedInvoiceMaster.rdlc" />
+    <EmbeddedResource Include="ReportDailySales.rdlc" />
+    <EmbeddedResource Include="ReportDeletedKotDetails.resx">
+      <DependentUpon>ReportDeletedKotDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportOtherIncome.resx">
+      <DependentUpon>ReportOtherIncome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResetDB.resx">
+      <DependentUpon>ResetDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RestoreDB.resx">
+      <DependentUpon>RestoreDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Restuarant.resx">
+      <DependentUpon>Restuarant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesReport.resx">
+      <DependentUpon>SalesReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesReportByDate.resx">
+      <DependentUpon>SalesReportByDate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sale_Analysis_Report.resx">
+      <DependentUpon>Sale_Analysis_Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchBill.resx">
+      <DependentUpon>SearchBill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Item.resx">
+      <DependentUpon>Item.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ItemSearch.resx">
+      <DependentUpon>ItemSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PendingOT%27S.resx">
+      <DependentUpon>PendingOT%27S.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="DeleteKot.resx">
+      <DependentUpon>DeleteKot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="searchReceiptvoucher.resx">
+      <DependentUpon>searchReceiptvoucher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splash.resx">
+      <DependentUpon>Splash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StockEntry.resx">
+      <DependentUpon>StockEntry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StockEntrySearch.resx">
+      <DependentUpon>StockEntrySearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StockReport.resx">
+      <DependentUpon>StockReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StockReportNew.resx">
+      <DependentUpon>StockReportNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Store Operations.resx">
+      <DependentUpon>Store Operations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SwipingMachine.resx">
+      <DependentUpon>SwipingMachine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tables.resx">
+      <DependentUpon>Tables.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tax.resx">
+      <DependentUpon>Tax.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThemeRoller.resx">
+      <DependentUpon>ThemeRoller.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TouchBilling.resx">
+      <DependentUpon>TouchBilling.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Unit.resx">
+      <DependentUpon>Unit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User.resx">
+      <DependentUpon>User.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserAccountType.resx">
+      <DependentUpon>UserAccountType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserRightscs.resx">
+      <DependentUpon>UserRightscs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewDayClosing.resx">
+      <DependentUpon>ViewDayClosing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="waiter.resx">
+      <DependentUpon>waiter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="waiters_list.resx">
+      <DependentUpon>waiters_list.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="DataSetItemReport.xsc">
+      <DependentUpon>DataSetItemReport.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetItemReport.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetItemReport.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetItemReport.xss">
+      <DependentUpon>DataSetItemReport.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetpendingkotdin.xsc">
+      <DependentUpon>DataSetpendingkotdin.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetpendingkotdin.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetpendingkotdin.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetpendingkotdin.xss">
+      <DependentUpon>DataSetpendingkotdin.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet_ReportProductStock.xsc">
+      <DependentUpon>DataSet_ReportProductStock.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet_ReportProductStock.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_ReportProductStock.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet_ReportProductStock.xss">
+      <DependentUpon>DataSet_ReportProductStock.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet.xsc">
+      <DependentUpon>dbBizcarePosDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSet.xss">
+      <DependentUpon>dbBizcarePosDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet1.xsc">
+      <DependentUpon>dbBizcarePosDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSet1.xss">
+      <DependentUpon>dbBizcarePosDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet10.xsc">
+      <DependentUpon>dbBizcarePosDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSet10.xss">
+      <DependentUpon>dbBizcarePosDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet11.xsc">
+      <DependentUpon>dbBizcarePosDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSet11.xss">
+      <DependentUpon>dbBizcarePosDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet12.xsc">
+      <DependentUpon>dbBizcarePosDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSet12.xss">
+      <DependentUpon>dbBizcarePosDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet13.xsc">
+      <DependentUpon>dbBizcarePosDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSet13.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSet13.xss">
+      <DependentUpon>dbBizcarePosDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet14.xsc">
+      <DependentUpon>dbBizcarePosDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSet14.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSet14.xss">
+      <DependentUpon>dbBizcarePosDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet15.xsc">
+      <DependentUpon>dbBizcarePosDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet15.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSet15.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSet15.xss">
+      <DependentUpon>dbBizcarePosDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet16.xsc">
+      <DependentUpon>dbBizcarePosDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet16.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSet16.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSet16.xss">
+      <DependentUpon>dbBizcarePosDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet17.xsc">
+      <DependentUpon>dbBizcarePosDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet17.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSet17.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSet17.xss">
+      <DependentUpon>dbBizcarePosDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet18.xsc">
+      <DependentUpon>dbBizcarePosDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet18.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSet18.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSet18.xss">
+      <DependentUpon>dbBizcarePosDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet19.xsc">
+      <DependentUpon>dbBizcarePosDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet19.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSet19.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSet19.xss">
+      <DependentUpon>dbBizcarePosDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet2.xsc">
+      <DependentUpon>dbBizcarePosDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSet2.xss">
+      <DependentUpon>dbBizcarePosDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet20.xsc">
+      <DependentUpon>dbBizcarePosDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet20.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSet20.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSet20.xss">
+      <DependentUpon>dbBizcarePosDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet21.xsc">
+      <DependentUpon>dbBizcarePosDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet21.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSet21.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSet21.xss">
+      <DependentUpon>dbBizcarePosDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet22.xsc">
+      <DependentUpon>dbBizcarePosDataSet22.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet22.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSet22.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSet22.xss">
+      <DependentUpon>dbBizcarePosDataSet22.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet23.xsc">
+      <DependentUpon>dbBizcarePosDataSet23.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet23.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSet23.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSet23.xss">
+      <DependentUpon>dbBizcarePosDataSet23.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet24.xsc">
+      <DependentUpon>dbBizcarePosDataSet24.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet24.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSet24.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSet24.xss">
+      <DependentUpon>dbBizcarePosDataSet24.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet25.xsc">
+      <DependentUpon>dbBizcarePosDataSet25.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet25.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSet25.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dbBizcarePosDataSet25.xss">
+      <DependentUpon>dbBizcarePosDataSet25.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet26.xsc">
+      <DependentUpon>dbBizcarePosDataSet26.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet26.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSet26.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSet26.xss">
+      <DependentUpon>dbBizcarePosDataSet26.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet27.xsc">
+      <DependentUpon>dbBizcarePosDataSet27.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet27.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSet27.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSet27.xss">
+      <DependentUpon>dbBizcarePosDataSet27.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet28.xsc">
+      <DependentUpon>dbBizcarePosDataSet28.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet28.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSet28.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSet28.xss">
+      <DependentUpon>dbBizcarePosDataSet28.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet29.xsc">
+      <DependentUpon>dbBizcarePosDataSet29.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet29.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSet29.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSet29.xss">
+      <DependentUpon>dbBizcarePosDataSet29.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet3.xsc">
+      <DependentUpon>dbBizcarePosDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSet3.xss">
+      <DependentUpon>dbBizcarePosDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet30.xsc">
+      <DependentUpon>dbBizcarePosDataSet30.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet30.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSet30.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSet30.xss">
+      <DependentUpon>dbBizcarePosDataSet30.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet31.xsc">
+      <DependentUpon>dbBizcarePosDataSet31.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet31.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSet31.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSet31.xss">
+      <DependentUpon>dbBizcarePosDataSet31.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet32.xsc">
+      <DependentUpon>dbBizcarePosDataSet32.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet32.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSet32.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSet32.xss">
+      <DependentUpon>dbBizcarePosDataSet32.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet33.xsc">
+      <DependentUpon>dbBizcarePosDataSet33.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet33.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSet33.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSet33.xss">
+      <DependentUpon>dbBizcarePosDataSet33.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet34.xsc">
+      <DependentUpon>dbBizcarePosDataSet34.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet34.xsd" />
+    <None Include="dbBizcarePosDataSet34.xss">
+      <DependentUpon>dbBizcarePosDataSet34.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet4.xsc">
+      <DependentUpon>dbBizcarePosDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSet4.xss">
+      <DependentUpon>dbBizcarePosDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet42.xsc">
+      <DependentUpon>dbBizcarePosDataSet42.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet42.xsd" />
+    <None Include="dbBizcarePosDataSet42.xss">
+      <DependentUpon>dbBizcarePosDataSet42.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet5.xsc">
+      <DependentUpon>dbBizcarePosDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSet5.xss">
+      <DependentUpon>dbBizcarePosDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet6.xsc">
+      <DependentUpon>dbBizcarePosDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSet6.xss">
+      <DependentUpon>dbBizcarePosDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet7.xsc">
+      <DependentUpon>dbBizcarePosDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSet7.xss">
+      <DependentUpon>dbBizcarePosDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet8.xsc">
+      <DependentUpon>dbBizcarePosDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSet8.xss">
+      <DependentUpon>dbBizcarePosDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet9.xsc">
+      <DependentUpon>dbBizcarePosDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSet9.xss">
+      <DependentUpon>dbBizcarePosDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetBankTransBank.xsc">
+      <DependentUpon>dbBizcarePosDataSetBankTransBank.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetBankTransBank.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSetBankTransBank.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSetBankTransBank.xss">
+      <DependentUpon>dbBizcarePosDataSetBankTransBank.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetBankTransReport.xsc">
+      <DependentUpon>dbBizcarePosDataSetBankTransReport.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetBankTransReport.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSetBankTransReport.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSetBankTransReport.xss">
+      <DependentUpon>dbBizcarePosDataSetBankTransReport.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetDayBookBasic.xsc">
+      <DependentUpon>dbBizcarePosDataSetDayBookBasic.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetDayBookBasic.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSetDayBookBasic.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSetDayBookBasic.xss">
+      <DependentUpon>dbBizcarePosDataSetDayBookBasic.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetDayBookReport.xsc">
+      <DependentUpon>dbBizcarePosDataSetDayBookReport.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetDayBookReport.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSetDayBookReport.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSetDayBookReport.xss">
+      <DependentUpon>dbBizcarePosDataSetDayBookReport.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetGetInvoiceAMnt.xsc">
+      <DependentUpon>dbBizcarePosDataSetGetInvoiceAMnt.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetGetInvoiceAMnt.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSetGetInvoiceAMnt.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSetGetInvoiceAMnt.xss">
+      <DependentUpon>dbBizcarePosDataSetGetInvoiceAMnt.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetGetInvoiceMstrAmount.xsc">
+      <DependentUpon>dbBizcarePosDataSetGetInvoiceMstrAmount.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetGetInvoiceMstrAmount.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSetGetInvoiceMstrAmount.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSetGetInvoiceMstrAmount.xss">
+      <DependentUpon>dbBizcarePosDataSetGetInvoiceMstrAmount.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetGetIvoiceAmount.xsc">
+      <DependentUpon>dbBizcarePosDataSetGetIvoiceAmount.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetGetIvoiceAmount.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSetGetIvoiceAmount.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSetGetIvoiceAmount.xss">
+      <DependentUpon>dbBizcarePosDataSetGetIvoiceAmount.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetPayableReport.xsc">
+      <DependentUpon>dbBizcarePosDataSetPayableReport.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetPayableReport.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSetPayableReport.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSetPayableReport.xss">
+      <DependentUpon>dbBizcarePosDataSetPayableReport.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetPaymentVoucherOldPayReceive.xsc">
+      <DependentUpon>dbBizcarePosDataSetPaymentVoucherOldPayReceive.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetPaymentVoucherOldPayReceive.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSetPaymentVoucherOldPayReceive.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSetPaymentVoucherOldPayReceive.xss">
+      <DependentUpon>dbBizcarePosDataSetPaymentVoucherOldPayReceive.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetPrintPaymentMaster.xsc">
+      <DependentUpon>dbBizcarePosDataSetPrintPaymentMaster.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetPrintPaymentMaster.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSetPrintPaymentMaster.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSetPrintPaymentMaster.xss">
+      <DependentUpon>dbBizcarePosDataSetPrintPaymentMaster.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetPrintPaymentVDetails.xsc">
+      <DependentUpon>dbBizcarePosDataSetPrintPaymentVDetails.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetPrintPaymentVDetails.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSetPrintPaymentVDetails.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSetPrintPaymentVDetails.xss">
+      <DependentUpon>dbBizcarePosDataSetPrintPaymentVDetails.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetPrintPaymentVDetailsOld.xsc">
+      <DependentUpon>dbBizcarePosDataSetPrintPaymentVDetailsOld.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetPrintPaymentVDetailsOld.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSetPrintPaymentVDetailsOld.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSetPrintPaymentVDetailsOld.xss">
+      <DependentUpon>dbBizcarePosDataSetPrintPaymentVDetailsOld.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetPrintPaymentVMasterold.xsc">
+      <DependentUpon>dbBizcarePosDataSetPrintPaymentVMasterold.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetPrintPaymentVMasterold.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSetPrintPaymentVMasterold.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSetPrintPaymentVMasterold.xss">
+      <DependentUpon>dbBizcarePosDataSetPrintPaymentVMasterold.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetPrintPaymentVOldOther.xsc">
+      <DependentUpon>dbBizcarePosDataSetPrintPaymentVOldOther.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetPrintPaymentVOldOther.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSetPrintPaymentVOldOther.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSetPrintPaymentVOldOther.xss">
+      <DependentUpon>dbBizcarePosDataSetPrintPaymentVOldOther.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetPrintPaymentVOther.xsc">
+      <DependentUpon>dbBizcarePosDataSetPrintPaymentVOther.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetPrintPaymentVOther.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSetPrintPaymentVOther.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSetPrintPaymentVOther.xss">
+      <DependentUpon>dbBizcarePosDataSetPrintPaymentVOther.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetPrintReceiptDetailsOld.xsc">
+      <DependentUpon>dbBizcarePosDataSetPrintReceiptDetailsOld.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetPrintReceiptDetailsOld.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSetPrintReceiptDetailsOld.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSetPrintReceiptDetailsOld.xss">
+      <DependentUpon>dbBizcarePosDataSetPrintReceiptDetailsOld.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetPrintReceiptVoucherOldReceive.xsc">
+      <DependentUpon>dbBizcarePosDataSetPrintReceiptVoucherOldReceive.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetPrintReceiptVoucherOldReceive.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSetPrintReceiptVoucherOldReceive.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSetPrintReceiptVoucherOldReceive.xss">
+      <DependentUpon>dbBizcarePosDataSetPrintReceiptVoucherOldReceive.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetPrintReceiptVoucherOldReceiveOther.xsc">
+      <DependentUpon>dbBizcarePosDataSetPrintReceiptVoucherOldReceiveOther.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetPrintReceiptVoucherOldReceiveOther.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSetPrintReceiptVoucherOldReceiveOther.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSetPrintReceiptVoucherOldReceiveOther.xss">
+      <DependentUpon>dbBizcarePosDataSetPrintReceiptVoucherOldReceiveOther.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetrd.xsc">
+      <DependentUpon>dbBizcarePosDataSetrd.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetrd.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSetrd.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSetrd.xss">
+      <DependentUpon>dbBizcarePosDataSetrd.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetreceiptm.xsc">
+      <DependentUpon>dbBizcarePosDataSetreceiptm.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetreceiptm.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSetreceiptm.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSetreceiptm.xss">
+      <DependentUpon>dbBizcarePosDataSetreceiptm.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetReceiptOther.xsc">
+      <DependentUpon>dbBizcarePosDataSetReceiptOther.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetReceiptOther.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSetReceiptOther.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSetReceiptOther.xss">
+      <DependentUpon>dbBizcarePosDataSetReceiptOther.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetReceivableReport.xsc">
+      <DependentUpon>dbBizcarePosDataSetReceivableReport.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetReceivableReport.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSetReceivableReport.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSetReceivableReport.xss">
+      <DependentUpon>dbBizcarePosDataSetReceivableReport.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetReportBankTransactionType.xsc">
+      <DependentUpon>dbBizcarePosDataSetReportBankTransactionType.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetReportBankTransactionType.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSetReportBankTransactionType.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSetReportBankTransactionType.xss">
+      <DependentUpon>dbBizcarePosDataSetReportBankTransactionType.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetReportDailySalesReport.xsc">
+      <DependentUpon>dbBizcarePosDataSetReportDailySalesReport.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetReportDailySalesReport.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSetReportDailySalesReport.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSetReportDailySalesReport.xss">
+      <DependentUpon>dbBizcarePosDataSetReportDailySalesReport.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetReportDeleatedKotDetails.xsc">
+      <DependentUpon>dbBizcarePosDataSetReportDeleatedKotDetails.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetReportDeleatedKotDetails.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSetReportDeleatedKotDetails.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSetReportDeleatedKotDetails.xss">
+      <DependentUpon>dbBizcarePosDataSetReportDeleatedKotDetails.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetReportDeletedCustMst.xsc">
+      <DependentUpon>dbBizcarePosDataSetReportDeletedCustMst.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetReportDeletedCustMst.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSetReportDeletedCustMst.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSetReportDeletedCustMst.xss">
+      <DependentUpon>dbBizcarePosDataSetReportDeletedCustMst.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetReportDeletedInvoiceDetails.xsc">
+      <DependentUpon>dbBizcarePosDataSetReportDeletedInvoiceDetails.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetReportDeletedInvoiceDetails.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSetReportDeletedInvoiceDetails.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSetReportDeletedInvoiceDetails.xss">
+      <DependentUpon>dbBizcarePosDataSetReportDeletedInvoiceDetails.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetReportDeletedInvoiceDetailsnew.xsc">
+      <DependentUpon>dbBizcarePosDataSetReportDeletedInvoiceDetailsnew.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetReportDeletedInvoiceDetailsnew.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSetReportDeletedInvoiceDetailsnew.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSetReportDeletedInvoiceDetailsnew.xss">
+      <DependentUpon>dbBizcarePosDataSetReportDeletedInvoiceDetailsnew.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetReportDeletedInvoiceMstr.xsc">
+      <DependentUpon>dbBizcarePosDataSetReportDeletedInvoiceMstr.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetReportDeletedInvoiceMstr.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSetReportDeletedInvoiceMstr.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSetReportDeletedInvoiceMstr.xss">
+      <DependentUpon>dbBizcarePosDataSetReportDeletedInvoiceMstr.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetReportDeletedKotMaster.xsc">
+      <DependentUpon>dbBizcarePosDataSetReportDeletedKotMaster.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetReportDeletedKotMaster.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSetReportDeletedKotMaster.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSetReportDeletedKotMaster.xss">
+      <DependentUpon>dbBizcarePosDataSetReportDeletedKotMaster.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetReportDeleteKotDetailsnew.xsc">
+      <DependentUpon>dbBizcarePosDataSetReportDeleteKotDetailsnew.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetReportDeleteKotDetailsnew.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSetReportDeleteKotDetailsnew.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSetReportDeleteKotDetailsnew.xss">
+      <DependentUpon>dbBizcarePosDataSetReportDeleteKotDetailsnew.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetReportOtherExpence.xsc">
+      <DependentUpon>dbBizcarePosDataSetReportOtherExpence.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetReportOtherExpence.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSetReportOtherExpence.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSetReportOtherExpence.xss">
+      <DependentUpon>dbBizcarePosDataSetReportOtherExpence.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetReportOtherExpenceType.xsc">
+      <DependentUpon>dbBizcarePosDataSetReportOtherExpenceType.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetReportOtherExpenceType.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSetReportOtherExpenceType.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSetReportOtherExpenceType.xss">
+      <DependentUpon>dbBizcarePosDataSetReportOtherExpenceType.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetReportOtherIncome.xsc">
+      <DependentUpon>dbBizcarePosDataSetReportOtherIncome.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetReportOtherIncome.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSetReportOtherIncome.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSetReportOtherIncome.xss">
+      <DependentUpon>dbBizcarePosDataSetReportOtherIncome.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetReportOtherIncomeType.xsc">
+      <DependentUpon>dbBizcarePosDataSetReportOtherIncomeType.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetReportOtherIncomeType.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSetReportOtherIncomeType.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSetReportOtherIncomeType.xss">
+      <DependentUpon>dbBizcarePosDataSetReportOtherIncomeType.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetReportSales.xsc">
+      <DependentUpon>dbBizcarePosDataSetReportSales.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetReportSales.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSetReportSales.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSetReportSales.xss">
+      <DependentUpon>dbBizcarePosDataSetReportSales.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetStkReportnew.xsc">
+      <DependentUpon>dbBizcarePosDataSetStkReportnew.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosDataSetStkReportnew.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosDataSetStkReportnew.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosDataSetStkReportnew.xss">
+      <DependentUpon>dbBizcarePosDataSetStkReportnew.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosOldDataSet.xsc">
+      <DependentUpon>dbBizcarePosOldDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosOldDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosOldDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosOldDataSet.xss">
+      <DependentUpon>dbBizcarePosOldDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosOldDataSet1.xsc">
+      <DependentUpon>dbBizcarePosOldDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosOldDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosOldDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosOldDataSet1.xss">
+      <DependentUpon>dbBizcarePosOldDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosOldDataSet2.xsc">
+      <DependentUpon>dbBizcarePosOldDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="dbBizcarePosOldDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBizcarePosOldDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBizcarePosOldDataSet2.xss">
+      <DependentUpon>dbBizcarePosOldDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DB_AdhidhiDataSet.xsc">
+      <DependentUpon>DB_AdhidhiDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DB_AdhidhiDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DB_AdhidhiDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_AdhidhiDataSet.xss">
+      <DependentUpon>DB_AdhidhiDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DB_AdhidhiDataSetinvoice.xsd.xsc">
+      <DependentUpon>DB_AdhidhiDataSetinvoice.xsd.xsd</DependentUpon>
+    </None>
+    <None Include="DB_AdhidhiDataSetinvoice.xsd.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DB_AdhidhiDataSetinvoice.xsd.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DB_AdhidhiDataSetinvoice.xsd.xss">
+      <DependentUpon>DB_AdhidhiDataSetinvoice.xsd.xsd</DependentUpon>
+    </None>
+    <None Include="DB_QbiztroDataSet.xsc">
+      <DependentUpon>DB_QbiztroDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DB_QbiztroDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DB_QbiztroDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_QbiztroDataSet.xss">
+      <DependentUpon>DB_QbiztroDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DB_QbiztroDataSet1.xsc">
+      <DependentUpon>DB_QbiztroDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DB_QbiztroDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DB_QbiztroDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_QbiztroDataSet1.xss">
+      <DependentUpon>DB_QbiztroDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DS_DiscountReport.xsc">
+      <DependentUpon>DS_DiscountReport.xsd</DependentUpon>
+    </None>
+    <None Include="DS_DiscountReport.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_DiscountReport.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_DiscountReport.xss">
+      <DependentUpon>DS_DiscountReport.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete6.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close bttn.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search4.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reset.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reset1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add .ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add 1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add3.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Report common1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Report common.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Reportnew.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RestaurantWall.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Backup.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg_fav.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Browse2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Update4.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Clearbtn.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.png" />
+    <None Include="Resources\images4.jpg" />
+    <None Include="Resources\images3.jpg" />
+    <None Include="Resources\images2.jpg" />
+    <None Include="Resources\images1.jpg" />
+    <None Include="Resources\Cannelloni &amp; Mushroom %28Small%29.jpg" />
+    <None Include="Resources\printer1.ico" />
+    <None Include="Resources\Payable Receivable1.png" />
+    <None Include="Resources\Report Bank Trans.png" />
+    <None Include="Resources\Payment Voucher.png" />
+    <None Include="Resources\Receipt Voucher.png" />
+    <None Include="Resources\Tax1.png" />
+    <None Include="Resources\Designation1.png" />
+    <None Include="Resources\Dealer.png" />
+    <None Include="Resources\Customer.png" />
+    <None Include="Resources\Payable Receivable.png" />
+    <None Include="Resources\SaveBW.jpg" />
+    <None Include="Resources\coffeecup3.jpg" />
+    <None Include="Resources\Main-Wall2.jpg" />
+    <None Include="Resources\restaurant wall paper.jpg" />
+    <None Include="Resources\button_close_01.ico" />
+    <None Include="Resources\tiele horizontal.png" />
+    <None Include="Resources\tilevertical.png" />
+    <None Include="Resources\cascade1.gif" />
+    <None Include="Resources\window1.png" />
+    <None Include="Resources\Report Other Income.png" />
+    <None Include="Resources\Report Other Expence.png" />
+    <None Include="Resources\Report Dead Stock.png" />
+    <None Include="Resources\Report Dealer Acc Smt.png" />
+    <None Include="Resources\sales3.png" />
+    <None Include="Resources\salesreport.png" />
+    <None Include="Resources\Other Income.png" />
+    <None Include="Resources\Other Expence.png" />
+    <None Include="Resources\Search.png" />
+    <None Include="Resources\kotdelte.png" />
+    <None Include="Resources\kot1.png" />
+    <None Include="Resources\stock2.jpg" />
+    <None Include="Resources\waiter.jpg" />
+    <None Include="Resources\restaurant table.jpg" />
+    <None Include="Resources\Unit.png" />
+    <None Include="Resources\Tax.png" />
+    <None Include="Resources\Item.png" />
+    <None Include="Resources\Category.png" />
+    <None Include="Resources\Brand.png" />
+    <None Include="Resources\Restore.png" />
+    <None Include="Resources\UserRightsSettings.png" />
+    <None Include="Resources\Pswd Change.png" />
+    <None Include="Resources\unknownuser.jpg" />
+    <None Include="Resources\Designation.png" />
+    <None Include="Resources\paper basket.png" />
+    <None Include="Resources\UserAccountSettings.jpg" />
+    <None Include="Resources\Settings.png" />
+    <None Include="Resources\Invoice.png" />
+    <None Include="Resources\Restorent.jpg" />
+    <None Include="Resources\Counter.png" />
+    <None Include="Resources\Logout1.png" />
+    <None Include="Resources\Repot Receivable Payable.png" />
+    <None Include="Resources\Finance1.png" />
+    <None Include="Resources\Stock Entry.png" />
+    <None Include="Resources\Masters1.png" />
+    <None Include="Resources\Masters.png" />
+    <None Include="Resources\Administration.png" />
+    <None Include="Resources\AccountType.png" />
+    <None Include="Resources\211.jpg" />
+    <Content Include="images\biriyani.jpg" />
+    <Content Include="Resources\ajax-loader %281%29.gif" />
+    <None Include="Resources\Load11.ico" />
+    <None Include="Resources\ajax-loader %281%291.gif" />
+    <None Include="Resources\Billing.png" />
+    <None Include="Resources\Backup.png" />
+    <None Include="Resources\billing4.png" />
+    <None Include="Resources\billingdelete.png" />
+    <None Include="Resources\BgRepeat.jpg" />
+    <None Include="Resources\Bank Transaction.png" />
+    <None Include="Resources\Bank.png" />
+    <None Include="Resources\biriyani.jpg" />
+    <Content Include="Resources\Biz login5.jpg" />
+    <None Include="Resources\Biz login51.jpg" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

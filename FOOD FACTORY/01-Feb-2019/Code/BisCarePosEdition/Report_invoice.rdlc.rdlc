@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition">
+  <DataSources>
+    <DataSource Name="DB_AdhidhiDataSetinvoice">
+      <ConnectionProperties>
+        <DataProvider>System.Data.DataSet</DataProvider>
+        <ConnectString>/* Local Connection */</ConnectString>
+      </ConnectionProperties>
+      <rd:DataSourceID>215a03f0-2b63-4ced-a864-6cedf20828e7</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="DataSet1">
+      <Fields>
+        <Field Name="InvoiceNo">
+          <DataField>InvoiceNo</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="InvoiceDate">
+          <DataField>InvoiceDate</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="TotalAmount">
+          <DataField>TotalAmount</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DB_AdhidhiDataSetinvoice</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <rd:DataSetInfo>
+        <rd:DataSetName>DB_AdhidhiDataSetinvoice</rd:DataSetName>
+        <rd:SchemaPath>D:\Neeshma\SASS Restuarant\13-03-2017\Code\BisCarePosEdition\DB_AdhidhiDataSetinvoice.xsd.xsd</rd:SchemaPath>
+        <rd:TableName>SP_Invoice_Reports</rd:TableName>
+        <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
+        <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
+        <rd:TableAdapterName>SP_Invoice_ReportsTableAdapter</rd:TableAdapterName>
+      </rd:DataSetInfo>
+    </DataSet>
+  </DataSets>
+  <Body>
+    <ReportItems>
+      <Textbox Name="Textbox9">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value> INVOICE REPORTS</Value>
+                <Style>
+                  <FontFamily>Times New Roman</FontFamily>
+                  <FontSize>12pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Center</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox9</rd:DefaultName>
+        <Top>0.50556in</Top>
+        <Left>0.77083in</Left>
+        <Height>0.27083in</Height>
+        <Width>4.54167in</Width>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Tablix Name="Tablix1">
+        <TablixBody>
+          <TablixColumns>
+            <TablixColumn>
+              <Width>1.60417in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>1.52083in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>1.41667in</Width>
+            </TablixColumn>
+          </TablixColumns>
+          <TablixRows>
+            <TablixRow>
+              <Height>0.25in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox1">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Invoice Date</Value>
+                              <Style>
+                                <FontFamily>Times New Roman</FontFamily>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox1</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox3">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Invoice No</Value>
+                              <Style>
+                                <FontFamily>Times New Roman</FontFamily>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox3</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>White</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox5">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Invoice  Amount</Value>
+                              <Style>
+                                <FontFamily>Times New Roman</FontFamily>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox5</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>White</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+            <TablixRow>
+              <Height>0.25in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="InvoiceDate">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!InvoiceDate.Value</Value>
+                              <Style />
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>InvoiceDate</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="InvoiceNo">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!InvoiceNo.Value</Value>
+                              <Style />
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>InvoiceNo</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="TotalAmount">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!TotalAmount.Value</Value>
+                              <Style />
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Right</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>TotalAmount</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+          </TablixRows>
+        </TablixBody>
+        <TablixColumnHierarchy>
+          <TablixMembers>
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+          </TablixMembers>
+        </TablixColumnHierarchy>
+        <TablixRowHierarchy>
+          <TablixMembers>
+            <TablixMember>
+              <KeepWithGroup>After</KeepWithGroup>
+            </TablixMember>
+            <TablixMember>
+              <Group Name="Details" />
+            </TablixMember>
+          </TablixMembers>
+        </TablixRowHierarchy>
+        <DataSetName>DataSet1</DataSetName>
+        <Top>0.81389in</Top>
+        <Left>0.77083in</Left>
+        <Height>0.5in</Height>
+        <Width>4.54167in</Width>
+        <ZIndex>1</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Tablix>
+      <Textbox Name="Textbox11">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>TOTAL AMOUNT :</Value>
+                <Style>
+                  <FontFamily>Times New Roman</FontFamily>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox11</rd:DefaultName>
+        <Top>1.37361in</Top>
+        <Left>2.5743in</Left>
+        <Height>0.25in</Height>
+        <Width>1.32153in</Width>
+        <ZIndex>2</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <BackgroundColor>White</BackgroundColor>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox12">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=FORMAT(Sum(Fields!TotalAmount.Value, "DataSet1"),"N2")</Value>
+                <Style>
+                  <FontFamily>Times New Roman</FontFamily>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Right</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox12</rd:DefaultName>
+        <Top>1.36945in</Top>
+        <Left>3.89583in</Left>
+        <Height>0.25in</Height>
+        <Width>1.41181in</Width>
+        <ZIndex>3</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <BackgroundColor>White</BackgroundColor>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+    </ReportItems>
+    <Height>2.69667in</Height>
+    <Style />
+  </Body>
+  <Width>5.41667in</Width>
+  <Page>
+    <PageHeader>
+      <Height>0.6875in</Height>
+      <PrintOnFirstPage>true</PrintOnFirstPage>
+      <PrintOnLastPage>true</PrintOnLastPage>
+      <ReportItems>
+        <Textbox Name="Textbox10">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>=Globals!PageNumber</Value>
+                  <Style />
+                </TextRun>
+              </TextRuns>
+              <Style />
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Textbox10</rd:DefaultName>
+          <Top>0.17584in</Top>
+          <Left>4.20834in</Left>
+          <Height>0.25in</Height>
+          <Width>1in</Width>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+      </ReportItems>
+      <Style>
+        <Border>
+          <Style>None</Style>
+        </Border>
+      </Style>
+    </PageHeader>
+    <LeftMargin>1in</LeftMargin>
+    <RightMargin>1in</RightMargin>
+    <TopMargin>1in</TopMargin>
+    <BottomMargin>1in</BottomMargin>
+    <Style />
+  </Page>
+  <rd:ReportID>f4d636cc-f26d-4958-89b8-6df4bca56509</rd:ReportID>
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+</Report>

@@ -1,0 +1,35 @@
+11-Nov-20 5:52:41 PM - Item
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '1' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Item.Item_Load(Object sender, EventArgs e)
+11-Nov-20 5:53:21 PM - Item
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Item.Cmb_itemname_SelectedIndexChanged(Object sender, EventArgs e)
+11-Nov-20 5:53:21 PM - Item
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Item.Cmb_itemname_SelectedIndexChanged(Object sender, EventArgs e)
+11-Nov-20 5:56:53 PM - Item
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '1' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Item.Item_Load(Object sender, EventArgs e)
+11-Nov-20 5:57:11 PM - Item
+System.ArgumentOutOfRangeException: InvalidArgument=Value of '1' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at BisCarePosEdition.Item.Item_Load(Object sender, EventArgs e)
+11-Nov-20 5:57:43 PM - Item
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Item.Cmb_itemname_SelectedIndexChanged(Object sender, EventArgs e)
+11-Nov-20 5:57:43 PM - Item
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BisCarePosEdition.Item.Cmb_itemname_SelectedIndexChanged(Object sender, EventArgs e)
